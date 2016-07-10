@@ -1,0 +1,15 @@
+PODS:
+  - IBAnimatable (2.4)
+  - Material (1.42.6)
+
+DEPENDENCIES:
+  - IBAnimatable
+  - Material
+
+SPEC CHECKSUMS:
+  IBAnimatable: f5dcd428e0fc41d11d3ed657c925393dd7bbaa0a
+  Material: 76dc9b14ad8b3a2ad673b77ad73dd66ed1eee68c
+
+PODFILE CHECKSUM: 0690d9bfd1428b4a45289e4e25e000ee976d9a02
+
+COCOAPODS: 1.0.1
