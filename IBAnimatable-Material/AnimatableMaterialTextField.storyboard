@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Mtn-GM-Eic">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Animatable Material Text Field View Controller-->
+        <scene sceneID="2Es-BS-x2H">
+            <objects>
+                <viewController storyboardIdentifier="AnimatableMaterialTextField" id="Mtn-GM-Eic" customClass="AnimatableMaterialTextFieldViewController" customModule="IBAnimatable_Material" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jEb-So-XtW"/>
+                        <viewControllerLayoutGuide type="bottom" id="XJ7-if-7wa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hi5-RF-5Vf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VRS-47-gQd" customClass="AnimatableMaterialTextField" customModule="IBAnimatable_Material">
+                                <rect key="frame" x="62" y="237" width="250" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="dyO-55-yMz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="What's your name ?"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                        <color key="value" red="0.6001969575881958" green="0.34362560510635376" blue="0.99872475862503052" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderActiveColor">
+                                        <color key="value" red="0.90328472852706909" green="0.55412548780441284" blue="0.99872475862503052" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="detail" value="Detail here"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="detailColor">
+                                        <color key="value" red="0.85490196939999996" green="0.87450981139999995" blue="0.90588235859999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="detailVerticalOffset">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x9R-v6-sMv" customClass="AnimatableRaisedButton" customModule="IBAnimatable_Material">
+                                <rect key="frame" x="87" y="607" width="200" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="POG-H6-pGn"/>
+                                    <constraint firstAttribute="width" constant="200" id="YXC-iq-9Xz"/>
+                                </constraints>
+                                <state key="normal" title="Click me">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animationType" value="SqueezeInUp"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="pulseColor">
+                                        <color key="value" red="0.90328472852706909" green="0.55412548780441284" blue="0.99872475862503052" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="backgroundColor">
+                                        <color key="value" red="0.54901999235153198" green="0.45881998538970947" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="duration">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="delay">
+                                        <real key="value" value="1.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="damping">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="velocity">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="repeatCount">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="force">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autoRun" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="buttonDidTouched:" destination="Mtn-GM-Eic" eventType="touchUpInside" id="BTh-fC-ldU"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="VRS-47-gQd" firstAttribute="centerX" secondItem="hi5-RF-5Vf" secondAttribute="centerX" id="2E1-FK-rZY"/>
+                            <constraint firstItem="VRS-47-gQd" firstAttribute="centerY" secondItem="hi5-RF-5Vf" secondAttribute="centerY" constant="-80" id="CA0-JU-0xu"/>
+                            <constraint firstItem="XJ7-if-7wa" firstAttribute="top" secondItem="x9R-v6-sMv" secondAttribute="bottom" constant="10" id="KKi-dZ-K8e"/>
+                            <constraint firstItem="x9R-v6-sMv" firstAttribute="centerX" secondItem="hi5-RF-5Vf" secondAttribute="centerX" id="lzx-Gr-h0i"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="constraintBottomButton" destination="KKi-dZ-K8e" id="CRS-e5-XLs"/>
+                        <outlet property="constraintMiddleTextfield" destination="CA0-JU-0xu" id="J3j-uc-2vC"/>
+                        <outlet property="textField" destination="VRS-47-gQd" id="Ulc-wO-rPj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MR0-gJ-4ga" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="248" y="273"/>
+        </scene>
+    </scenes>
+</document>

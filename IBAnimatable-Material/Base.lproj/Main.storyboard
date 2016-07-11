@@ -1,48 +1,104 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="FrD-K8-X8m">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Component-->
+        <scene sceneID="N5O-Cp-wc9">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="IBAnimatable_Material" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                <tableViewController title="Component" id="KnH-JO-JQk" customClass="MainTableView" customModule="IBAnimatable_Material" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="80" sectionHeaderHeight="28" sectionFooterHeight="28" id="Wfu-is-OPO" customClass="AnimatableTableView" customModule="IBAnimatable">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5jz-oM-1ye" customClass="AnimatableRaisedButton" customModule="IBAnimatable_Material" customModuleProvider="target">
-                                <rect key="frame" x="51" y="274" width="263" height="120"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="sectionIndexBackgroundColor" red="0.70980392160000005" green="0.4549019608" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="materialCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="materialCell" rowHeight="80" id="ZPz-hN-MOG" customClass="AnimatableMaterialTableViewCell" customModule="IBAnimatable_Material">
+                                <rect key="frame" x="0.0" y="92" width="375" height="80"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ZPz-hN-MOG" id="sEZ-dm-9i8">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="79.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="backgroundColor">
+                                    <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
                                         <color key="value" red="0.70980392160000005" green="0.4549019608" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="animationType" value="Pop"/>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="repeatCount">
-                                        <real key="value" value="2"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animationType" value="FadeInLeft"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="duration">
+                                        <real key="value" value="1.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="delay">
+                                        <real key="value" value="0.5"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="pulseColor">
-                                        <color key="value" red="0.78823529410000004" green="0.2470588235" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="value" red="0.94901961088180542" green="0.50196081399917603" blue="0.49019607901573181" alpha="1" colorSpace="calibratedRGB"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                            </tableViewCell>
+                        </prototypes>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                <color key="value" red="0.70980392160000005" green="0.4549019608" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <outlet property="dataSource" destination="KnH-JO-JQk" id="IqR-ab-jlj"/>
+                            <outlet property="delegate" destination="KnH-JO-JQk" id="CGg-Zc-9kz"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="rW2-bV-rW9"/>
+                    <connections>
+                        <segue destination="vMB-7p-p32" kind="show" identifier="toAnimatableRaisedButton" id="v0q-On-8xE"/>
+                        <segue destination="Ufr-MZ-5YW" kind="show" identifier="toAnimatableMaterialTextField" id="myE-rJ-bs8"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="G0x-nq-haq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="293.5" y="354.5"/>
+            <point key="canvasLocation" x="757.5" y="1077.5"/>
+        </scene>
+        <!--AnimatableRaisedButton-->
+        <scene sceneID="NyT-nh-yVK">
+            <objects>
+                <viewControllerPlaceholder storyboardName="AnimatableRaisedButton" referencedIdentifier="AnimatableRaisedButton" id="vMB-7p-p32" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="05L-Jn-cfB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1109" y="646"/>
+        </scene>
+        <!--AnimatableMaterialTextField-->
+        <scene sceneID="qnz-ro-sfa">
+            <objects>
+                <viewControllerPlaceholder storyboardName="AnimatableMaterialTextField" referencedIdentifier="AnimatableMaterialTextField" id="Ufr-MZ-5YW" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Oh-9L-LDC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1187" y="687"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="QjK-zX-rdV">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="FrD-K8-X8m" customClass="NavigationController" customModule="Material" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="v9r-Hy-DH8" customClass="AnimatableMaterialNavBar" customModule="IBAnimatable_Material">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="0.16714784499999999" green="0.1965968609" blue="0.28792965409999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="backgroundColor">
+                                <color key="value" red="0.9568600058555603" green="0.97254997491836548" blue="0.98430997133255005" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="KnH-JO-JQk" kind="relationship" relationship="rootViewController" id="baF-84-fqo"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gSN-2d-Hv3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="282" y="1078"/>
         </scene>
     </scenes>
 </document>

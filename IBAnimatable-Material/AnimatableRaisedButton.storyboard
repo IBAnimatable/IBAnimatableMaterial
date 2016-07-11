@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="dXX-TZ-aUz">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--AnimatableRaisedButton-->
+        <scene sceneID="bVX-6n-hSf">
+            <objects>
+                <viewController storyboardIdentifier="AnimatableRaisedButton" title="AnimatableRaisedButton" id="dXX-TZ-aUz" customClass="ViewController" customModule="IBAnimatable_Material" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="je1-QR-Krs"/>
+                        <viewControllerLayoutGuide type="bottom" id="qf4-0E-LmE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="b7l-iD-GCi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cq8-LQ-9Yd" customClass="AnimatableRaisedButton" customModule="IBAnimatable_Material" customModuleProvider="target">
+                                <rect key="frame" x="96" y="274" width="183" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="tix-HY-i1T"/>
+                                </constraints>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="backgroundColor">
+                                        <color key="value" red="0.70980392160000005" green="0.4549019608" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animationType" value="Pop"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="delay">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="repeatCount">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="force">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="pulseColor">
+                                        <color key="value" red="0.90328472852706909" green="0.55412548780441284" blue="0.99872475862503052" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="cq8-LQ-9Yd" firstAttribute="centerY" secondItem="b7l-iD-GCi" secondAttribute="centerY" id="34I-tu-4dD"/>
+                            <constraint firstItem="cq8-LQ-9Yd" firstAttribute="leading" secondItem="b7l-iD-GCi" secondAttribute="leadingMargin" constant="80" id="SkU-Nh-4Jz"/>
+                            <constraint firstItem="cq8-LQ-9Yd" firstAttribute="centerX" secondItem="b7l-iD-GCi" secondAttribute="centerX" id="mrs-v7-uds"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="cq8-LQ-9Yd" secondAttribute="trailing" constant="80" id="zQj-Cr-Ng1"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bi8-5K-1qq" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="293.5" y="354.5"/>
+        </scene>
+    </scenes>
+</document>
