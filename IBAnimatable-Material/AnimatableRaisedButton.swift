@@ -10,6 +10,7 @@ import UIKit
 import Material
 import IBAnimatable
 
+@IBDesignable
 public class AnimatableRaisedButton: RaisedButton, Animatable {
   // MARK: - Animatable
   @IBInspectable public var animationType: String?
