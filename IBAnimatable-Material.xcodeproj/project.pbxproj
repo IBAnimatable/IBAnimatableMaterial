@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E11C6531D358A8C00318B7C /* AnimatableFlatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E11C6521D358A8C00318B7C /* AnimatableFlatButton.swift */; };
+		5E11C6551D358CA200318B7C /* AnimatableFlatButton.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E11C6541D358CA200318B7C /* AnimatableFlatButton.storyboard */; };
 		5F063812EEDF15E945BCDE03 /* Pods_IBAnimatable_Material.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 392544B9DD945B6E07C5EFA3 /* Pods_IBAnimatable_Material.framework */; };
 		AEFC55DB1D32212D00D9EC01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFC55DA1D32212D00D9EC01 /* AppDelegate.swift */; };
 		AEFC55DD1D32212D00D9EC01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFC55DC1D32212D00D9EC01 /* ViewController.swift */; };
@@ -25,6 +27,8 @@
 
 /* Begin PBXFileReference section */
 		392544B9DD945B6E07C5EFA3 /* Pods_IBAnimatable_Material.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IBAnimatable_Material.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E11C6521D358A8C00318B7C /* AnimatableFlatButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableFlatButton.swift; sourceTree = "<group>"; };
+		5E11C6541D358CA200318B7C /* AnimatableFlatButton.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AnimatableFlatButton.storyboard; sourceTree = "<group>"; };
 		751679D2A4128C8DB78EB63F /* Pods-IBAnimatable-Material.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBAnimatable-Material.release.xcconfig"; path = "Pods/Target Support Files/Pods-IBAnimatable-Material/Pods-IBAnimatable-Material.release.xcconfig"; sourceTree = "<group>"; };
 		AEFC55D71D32212D00D9EC01 /* IBAnimatable-Material.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IBAnimatable-Material.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEFC55DA1D32212D00D9EC01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				AEFC55EC1D32416E00D9EC01 /* AnimatableRaisedButton.swift */,
+				5E11C6521D358A8C00318B7C /* AnimatableFlatButton.swift */,
 				E92283601D33CA4A0049DE28 /* AnimatableMaterialTableViewCell.swift */,
 				E92283591D33C95D0049DE28 /* AnimatableMaterialTextField.swift */,
 				E922835E1D33C9930049DE28 /* AnimatableMaterialNavBar.swift */,
@@ -114,6 +119,7 @@
 			children = (
 				E92283641D33CA870049DE28 /* Example View Controller Code */,
 				E92283651D33CAA90049DE28 /* AnimatableRaisedButton.storyboard */,
+				5E11C6541D358CA200318B7C /* AnimatableFlatButton.storyboard */,
 				E92283581D33C95D0049DE28 /* AnimatableMaterialTextField.storyboard */,
 			);
 			name = Storyboard;
@@ -200,6 +206,7 @@
 				E92283661D33CAA90049DE28 /* AnimatableRaisedButton.storyboard in Resources */,
 				AEFC55E51D32212D00D9EC01 /* LaunchScreen.storyboard in Resources */,
 				AEFC55E21D32212D00D9EC01 /* Assets.xcassets in Resources */,
+				5E11C6551D358CA200318B7C /* AnimatableFlatButton.storyboard in Resources */,
 				AEFC55E01D32212D00D9EC01 /* Main.storyboard in Resources */,
 				E922835B1D33C95D0049DE28 /* AnimatableMaterialTextField.storyboard in Resources */,
 			);
@@ -262,6 +269,7 @@
 			files = (
 				E92283611D33CA4A0049DE28 /* AnimatableMaterialTableViewCell.swift in Sources */,
 				AEFC55DD1D32212D00D9EC01 /* ViewController.swift in Sources */,
+				5E11C6531D358A8C00318B7C /* AnimatableFlatButton.swift in Sources */,
 				E922835F1D33C9930049DE28 /* AnimatableMaterialNavBar.swift in Sources */,
 				AEFC55ED1D32416E00D9EC01 /* AnimatableRaisedButton.swift in Sources */,
 				E92283461D33C59D0049DE28 /* MainTableView.swift in Sources */,
