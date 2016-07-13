@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="dXX-TZ-aUz">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--AnimatableMaterialButtons-->
+        <scene sceneID="bVX-6n-hSf">
+            <objects>
+                <viewController storyboardIdentifier="AnimatableMaterialButtons" title="AnimatableMaterialButtons" id="dXX-TZ-aUz" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="je1-QR-Krs"/>
+                        <viewControllerLayoutGuide type="bottom" id="qf4-0E-LmE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="b7l-iD-GCi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cq8-LQ-9Yd" customClass="AnimatableRaisedButton" customModule="IBAnimatable_Material" customModuleProvider="target">
+                                <rect key="frame" x="96" y="158" width="183" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="vHe-uM-R7y"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Raised">
+                                    <color key="titleColor" red="0.70980392160000005" green="0.4549019608" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animationType" value="Pop"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="delay">
+                                        <real key="value" value="0.29999999999999999"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="repeatCount">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="force">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="pulseColor">
+                                        <color key="value" red="0.90196078431372551" green="0.55294117647058827" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m3U-bn-m3h" customClass="AnimatableMaterialFabButton" customModule="IBAnimatable_Material" customModuleProvider="target">
+                                <rect key="frame" x="155" y="446" width="64" height="64"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="5Sr-j5-W6G"/>
+                                    <constraint firstAttribute="width" constant="64" id="i7X-FK-sdg"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animationType" value="Pop"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="repeatCount">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="delay">
+                                        <real key="value" value="0.29999999999999999"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uqd-8m-Yrk" customClass="AnimatableFlatButton" customModule="IBAnimatable_Material" customModuleProvider="target">
+                                <rect key="frame" x="96" y="304" width="183" height="80"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Flat">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animationType" value="SlideInLeft"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autoRun" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="delay">
+                                        <real key="value" value="0.29999999999999999"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="force">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="pulseColor">
+                                        <color key="value" red="0.90196078430000004" green="0.55294117649999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="backgroundColor">
+                                        <color key="value" red="0.70980392160000005" green="0.4549019608" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Uqd-8m-Yrk" firstAttribute="centerX" secondItem="m3U-bn-m3h" secondAttribute="centerX" id="1Qs-1X-R5O"/>
+                            <constraint firstItem="cq8-LQ-9Yd" firstAttribute="trailing" secondItem="Uqd-8m-Yrk" secondAttribute="trailing" id="1b7-a0-Q6T"/>
+                            <constraint firstItem="qf4-0E-LmE" firstAttribute="top" secondItem="m3U-bn-m3h" secondAttribute="bottom" constant="157" id="JzJ-HG-Lgm"/>
+                            <constraint firstItem="cq8-LQ-9Yd" firstAttribute="leading" secondItem="Uqd-8m-Yrk" secondAttribute="leading" id="Pta-W4-mDI"/>
+                            <constraint firstItem="cq8-LQ-9Yd" firstAttribute="top" secondItem="je1-QR-Krs" secondAttribute="bottom" constant="138" id="U0Y-X9-qQo"/>
+                            <constraint firstItem="m3U-bn-m3h" firstAttribute="centerX" secondItem="b7l-iD-GCi" secondAttribute="centerX" id="ZlG-uL-xnM"/>
+                            <constraint firstItem="m3U-bn-m3h" firstAttribute="top" secondItem="Uqd-8m-Yrk" secondAttribute="bottom" constant="62" id="ckS-ap-Bab"/>
+                            <constraint firstItem="Uqd-8m-Yrk" firstAttribute="top" secondItem="cq8-LQ-9Yd" secondAttribute="bottom" constant="66" id="sf1-mt-ioc"/>
+                            <constraint firstItem="cq8-LQ-9Yd" firstAttribute="leading" secondItem="b7l-iD-GCi" secondAttribute="leadingMargin" constant="80" id="zW6-89-RJ0"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bi8-5K-1qq" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="212.5" y="392.5"/>
+        </scene>
+    </scenes>
+</document>
