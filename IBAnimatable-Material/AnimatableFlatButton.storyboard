@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="sa4-Ud-3l0">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="He3-wL-13A">
+            <objects>
+                <viewController storyboardIdentifier="AnimatableFlatButton" id="sa4-Ud-3l0" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BBf-Bg-oQj"/>
+                        <viewControllerLayoutGuide type="bottom" id="Sze-8R-SSB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Z0l-tm-mHA">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wAJ-7N-hbi" customClass="AnimatableFlatButton" customModule="IBAnimatable_Material" customModuleProvider="target">
+                                <rect key="frame" x="116" y="308" width="183" height="120"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Flat">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animationType" value="SlideInLeft"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autoRun" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="delay">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="force">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="pulseColor">
+                                        <color key="value" red="0.90196078430000004" green="0.55294117649999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="backgroundColor">
+                                        <color key="value" red="0.70980392160000005" green="0.4549019608" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wAJ-7N-hbi" firstAttribute="centerY" secondItem="Z0l-tm-mHA" secondAttribute="centerY" id="0az-uS-irc"/>
+                            <constraint firstItem="wAJ-7N-hbi" firstAttribute="leading" secondItem="Z0l-tm-mHA" secondAttribute="leadingMargin" constant="96" id="AAq-2f-ig4"/>
+                            <constraint firstItem="wAJ-7N-hbi" firstAttribute="centerX" secondItem="Z0l-tm-mHA" secondAttribute="centerX" id="AZk-kJ-BN7"/>
+                            <constraint firstItem="wAJ-7N-hbi" firstAttribute="top" secondItem="BBf-Bg-oQj" secondAttribute="bottom" constant="288" id="dS2-ct-kzx"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NFC-dL-uQG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="269" y="329"/>
+        </scene>
+    </scenes>
+</document>
