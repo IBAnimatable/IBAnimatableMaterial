@@ -51,30 +51,22 @@
                     </tableView>
                     <navigationItem key="navigationItem" id="rW2-bV-rW9"/>
                     <connections>
-                        <segue destination="vMB-7p-p32" kind="show" identifier="toAnimatableRaisedButton" id="v0q-On-8xE"/>
+                        <segue destination="vMB-7p-p32" kind="show" identifier="toAnimatableMaterialButtons" id="v0q-On-8xE"/>
                         <segue destination="Ufr-MZ-5YW" kind="show" identifier="toAnimatableMaterialTextField" id="myE-rJ-bs8"/>
-                        <segue destination="vkE-u9-guE" kind="show" identifier="toAnimatableFlatButton" id="D0e-BP-aeX"/>
+                        <segue destination="J3P-YW-cco" kind="show" identifier="toAnimatableMaterialCardView" id="sGC-un-ZV0"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G0x-nq-haq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="757.5" y="1077.5"/>
         </scene>
-        <!--AnimatableRaisedButton-->
+        <!--AnimatableMaterialButtons-->
         <scene sceneID="NyT-nh-yVK">
             <objects>
-                <viewControllerPlaceholder storyboardName="AnimatableRaisedButton" referencedIdentifier="AnimatableRaisedButton" id="vMB-7p-p32" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="AnimatableMaterialButtons" referencedIdentifier="AnimatableMaterialButtons" id="vMB-7p-p32" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="05L-Jn-cfB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1109" y="646"/>
-        </scene>
-        <!--AnimatableFlatButton-->
-        <scene sceneID="82V-aP-dTa">
-            <objects>
-                <viewControllerPlaceholder storyboardName="AnimatableFlatButton" referencedIdentifier="AnimatableFlatButton" id="vkE-u9-guE" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="8Ut-mU-O4g" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1165.5" y="726"/>
+            <point key="canvasLocation" x="1133" y="687"/>
         </scene>
         <!--AnimatableMaterialTextField-->
         <scene sceneID="qnz-ro-sfa">
@@ -82,7 +74,15 @@
                 <viewControllerPlaceholder storyboardName="AnimatableMaterialTextField" referencedIdentifier="AnimatableMaterialTextField" id="Ufr-MZ-5YW" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Oh-9L-LDC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1158" y="838"/>
+            <point key="canvasLocation" x="1143" y="812"/>
+        </scene>
+        <!--AnimatableMaterialCardView-->
+        <scene sceneID="NGN-HP-lnE">
+            <objects>
+                <viewControllerPlaceholder storyboardName="AnimatableMaterialCardView" referencedIdentifier="AnimatableMaterialCardView" id="J3P-YW-cco" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gVl-Ju-j6E" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1151.5" y="880"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="QjK-zX-rdV">

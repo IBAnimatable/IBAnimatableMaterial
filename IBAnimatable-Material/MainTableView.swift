@@ -11,14 +11,11 @@ import Material
 import IBAnimatable
 
 private enum components: String {
-  case AnimatableRaisedButton = "Animatable Raised Button"
-  case AnimatableFlatButton = "Animatable Flat Button"
-  case AnimatableMaterialTextField = "AnimatableMaterial TextField"
-  case AnimatableButton3 = "Animatable Button 3"
+  case AnimatableMaterialButtons, AnimatableMaterialTextField, AnimatableMaterialCardView
   case AnimatableButton4 = "Animatable Button 4"
   case AnimatableButton5 = "Animatable Button 5"
   
-  static let AllValues = [AnimatableRaisedButton, AnimatableFlatButton, AnimatableMaterialTextField, AnimatableButton3, AnimatableButton4, AnimatableButton5]
+  static let AllValues = [AnimatableMaterialButtons, AnimatableMaterialTextField, AnimatableMaterialCardView, AnimatableButton4, AnimatableButton5]
 }
 
 
@@ -63,7 +60,6 @@ class MainTableView: UITableViewController {
   
   override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
     let cell = tableView.dequeueReusableCellWithIdentifier("materialCell", forIndexPath: indexPath) as! AnimatableMaterialTableViewCell
-    //let cell = MaterialTableViewCell(style: .Default, reuseIdentifier: "materialCell")
     let dataCell = dataSourceTable[indexPath.row]
     
     cell.textLabel?.textColor = UIColor.whiteColor()
@@ -80,14 +76,12 @@ class MainTableView: UITableViewController {
   override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
     
     switch components.AllValues[indexPath.row] {
-    case .AnimatableRaisedButton:
-      performSegueWithIdentifier("toAnimatableRaisedButton", sender: self)
-    case .AnimatableFlatButton:
-      performSegueWithIdentifier("toAnimatableFlatButton", sender: self)
+    case .AnimatableMaterialButtons:
+      performSegueWithIdentifier("toAnimatableMaterialButtons", sender: self)
     case .AnimatableMaterialTextField:
       performSegueWithIdentifier("toAnimatableMaterialTextField", sender: self)
-    case .AnimatableButton3:
-      print("AnimatableButton3")
+    case .AnimatableMaterialCardView:
+      performSegueWithIdentifier("toAnimatableMaterialCardView", sender: self)
     case .AnimatableButton4:
       print("AnimatableButton4")
     case .AnimatableButton5:
