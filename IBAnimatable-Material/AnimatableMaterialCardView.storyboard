@@ -54,7 +54,88 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7m2-zD-h1i" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="234" y="95"/>
+            <point key="canvasLocation" x="199" y="102"/>
+        </scene>
+        <!--Animatable Material Image Card View Controller-->
+        <scene sceneID="s2U-9J-9RP">
+            <objects>
+                <viewController storyboardIdentifier="AnimatableMaterialImageCardView" id="e6E-Tg-icf" customClass="AnimatableMaterialImageCardViewController" customModule="IBAnimatable_Material" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QaP-fh-I8t"/>
+                        <viewControllerLayoutGuide type="bottom" id="JGd-wX-dGd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7ah-ee-7HN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Muj-Jp-Jxe" customClass="AnimatableMaterialImageCardView" customModule="IBAnimatable_Material" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="250"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="dividerColor">
+                                        <color key="value" red="0.70980392160000005" green="0.4549019608" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animationType" value="Pop"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="delay">
+                                        <real key="value" value="0.29999999999999999"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="JGd-wX-dGd" firstAttribute="top" secondItem="Muj-Jp-Jxe" secondAttribute="bottom" constant="486" id="1bB-wD-guo"/>
+                            <constraint firstAttribute="trailing" secondItem="Muj-Jp-Jxe" secondAttribute="trailing" id="KUh-To-VbJ"/>
+                            <constraint firstItem="Muj-Jp-Jxe" firstAttribute="top" secondItem="7ah-ee-7HN" secondAttribute="top" id="VYY-Mg-sj8"/>
+                            <constraint firstItem="Muj-Jp-Jxe" firstAttribute="leading" secondItem="7ah-ee-7HN" secondAttribute="leading" id="cuK-dF-dEx"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="imageCardView" destination="Muj-Jp-Jxe" id="k2U-rt-xat"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0fm-Q9-cUH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="653" y="102"/>
+        </scene>
+        <!--Animatable Material Control View Controller-->
+        <scene sceneID="trd-Lz-UPH">
+            <objects>
+                <viewController storyboardIdentifier="AnimatableMaterialControlView" id="cdF-xk-4Ze" customClass="AnimatableMaterialControlViewController" customModule="IBAnimatable_Material" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6XN-rD-kEa"/>
+                        <viewControllerLayoutGuide type="bottom" id="QzZ-eD-GXB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="JtV-VX-coK">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EdD-a9-UFV" customClass="AnimatableMaterialControlView" customModule="IBAnimatable_Material" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                        <color key="value" red="0.70980392160000005" green="0.4549019608" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="QzZ-eD-GXB" firstAttribute="top" secondItem="EdD-a9-UFV" secondAttribute="bottom" constant="536" id="2JD-Ft-X9a"/>
+                            <constraint firstItem="EdD-a9-UFV" firstAttribute="leading" secondItem="JtV-VX-coK" secondAttribute="leading" id="BVw-lw-Hi8"/>
+                            <constraint firstItem="EdD-a9-UFV" firstAttribute="top" secondItem="JtV-VX-coK" secondAttribute="top" id="CAg-8e-FuS"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="controlView" destination="EdD-a9-UFV" id="lCF-Cy-5uw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ioK-Hr-COg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1097" y="102"/>
         </scene>
     </scenes>
 </document>

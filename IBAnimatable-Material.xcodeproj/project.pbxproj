@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		5E11C6531D358A8C00318B7C /* AnimatableFlatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E11C6521D358A8C00318B7C /* AnimatableFlatButton.swift */; };
+		5E7798821D3C52E300D693BB /* AnimatableMaterialImageCardView .swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7798811D3C52E300D693BB /* AnimatableMaterialImageCardView .swift */; };
+		5E7798841D3C560D00D693BB /* AnimatableMaterialImageCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7798831D3C560D00D693BB /* AnimatableMaterialImageCardViewController.swift */; };
+		5E7798861D3C652900D693BB /* AnimatableMaterialControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7798851D3C652900D693BB /* AnimatableMaterialControlView.swift */; };
+		5E7798881D3C65DA00D693BB /* AnimatableMaterialControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7798871D3C65DA00D693BB /* AnimatableMaterialControlViewController.swift */; };
 		5E89530E1D3677BD00E54575 /* AnimatableMaterialFabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E89530D1D3677BD00E54575 /* AnimatableMaterialFabButton.swift */; };
 		5E8953171D36853A00E54575 /* AnimatableMaterialCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8953161D36853A00E54575 /* AnimatableMaterialCardView.swift */; };
 		5E8953191D3689C700E54575 /* AnimatableMaterialCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8953181D3689C700E54575 /* AnimatableMaterialCardViewController.swift */; };
@@ -31,6 +35,10 @@
 /* Begin PBXFileReference section */
 		392544B9DD945B6E07C5EFA3 /* Pods_IBAnimatable_Material.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IBAnimatable_Material.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E11C6521D358A8C00318B7C /* AnimatableFlatButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableFlatButton.swift; sourceTree = "<group>"; };
+		5E7798811D3C52E300D693BB /* AnimatableMaterialImageCardView .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AnimatableMaterialImageCardView .swift"; sourceTree = "<group>"; };
+		5E7798831D3C560D00D693BB /* AnimatableMaterialImageCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialImageCardViewController.swift; sourceTree = "<group>"; };
+		5E7798851D3C652900D693BB /* AnimatableMaterialControlView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialControlView.swift; sourceTree = "<group>"; };
+		5E7798871D3C65DA00D693BB /* AnimatableMaterialControlViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialControlViewController.swift; sourceTree = "<group>"; };
 		5E89530D1D3677BD00E54575 /* AnimatableMaterialFabButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialFabButton.swift; sourceTree = "<group>"; };
 		5E8953161D36853A00E54575 /* AnimatableMaterialCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialCardView.swift; sourceTree = "<group>"; };
 		5E8953181D3689C700E54575 /* AnimatableMaterialCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialCardViewController.swift; sourceTree = "<group>"; };
@@ -118,6 +126,8 @@
 				E92283591D33C95D0049DE28 /* AnimatableMaterialTextField.swift */,
 				E922835E1D33C9930049DE28 /* AnimatableMaterialNavBar.swift */,
 				5E8953161D36853A00E54575 /* AnimatableMaterialCardView.swift */,
+				5E7798811D3C52E300D693BB /* AnimatableMaterialImageCardView .swift */,
+				5E7798851D3C652900D693BB /* AnimatableMaterialControlView.swift */,
 			);
 			name = Code;
 			sourceTree = "<group>";
@@ -138,6 +148,8 @@
 			children = (
 				E922835A1D33C95D0049DE28 /* AnimatableMaterialTextFieldViewController.swift */,
 				5E8953181D3689C700E54575 /* AnimatableMaterialCardViewController.swift */,
+				5E7798831D3C560D00D693BB /* AnimatableMaterialImageCardViewController.swift */,
+				5E7798871D3C65DA00D693BB /* AnimatableMaterialControlViewController.swift */,
 			);
 			name = "Example View Controller Code";
 			sourceTree = "<group>";
@@ -279,7 +291,10 @@
 				E92283611D33CA4A0049DE28 /* AnimatableMaterialTableViewCell.swift in Sources */,
 				AEFC55DD1D32212D00D9EC01 /* ViewController.swift in Sources */,
 				5E8953171D36853A00E54575 /* AnimatableMaterialCardView.swift in Sources */,
+				5E7798841D3C560D00D693BB /* AnimatableMaterialImageCardViewController.swift in Sources */,
 				5E8953191D3689C700E54575 /* AnimatableMaterialCardViewController.swift in Sources */,
+				5E7798881D3C65DA00D693BB /* AnimatableMaterialControlViewController.swift in Sources */,
+				5E7798821D3C52E300D693BB /* AnimatableMaterialImageCardView .swift in Sources */,
 				5E11C6531D358A8C00318B7C /* AnimatableFlatButton.swift in Sources */,
 				E922835F1D33C9930049DE28 /* AnimatableMaterialNavBar.swift in Sources */,
 				5E89530E1D3677BD00E54575 /* AnimatableMaterialFabButton.swift in Sources */,
@@ -288,6 +303,7 @@
 				E922835D1D33C95D0049DE28 /* AnimatableMaterialTextFieldViewController.swift in Sources */,
 				E922835C1D33C95D0049DE28 /* AnimatableMaterialTextField.swift in Sources */,
 				AEFC55DB1D32212D00D9EC01 /* AppDelegate.swift in Sources */,
+				5E7798861D3C652900D693BB /* AnimatableMaterialControlView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
