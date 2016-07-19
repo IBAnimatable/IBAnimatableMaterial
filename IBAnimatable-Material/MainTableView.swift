@@ -11,7 +11,7 @@ import Material
 import IBAnimatable
 
 private enum components: String {
-  case AnimatableMaterialButtons, AnimatableMaterialTextField, AnimatableMaterialErrorTextField = "ErrorTextField / TextView / Label", AnimatableMaterialCardView
+  case AnimatableMaterialButtons, AnimatableMaterialTextField, AnimatableMaterialErrorTextField = "ErrorTextField / TextView / Label / SearchBar", AnimatableMaterialCardView
   case AnimatableImageCardView, AnimatableControlView
   
   static let AllValues = [AnimatableMaterialButtons, AnimatableMaterialTextField, AnimatableMaterialErrorTextField, AnimatableMaterialCardView, AnimatableImageCardView, AnimatableControlView]

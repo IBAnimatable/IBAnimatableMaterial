@@ -15,10 +15,12 @@ class AnimatableMaterialErrorTextFieldViewController: UIViewController, UITextFi
   @IBOutlet weak var emailField: AnimatableMaterialErrorTextField!
   @IBOutlet weak var textView: AnimatableMaterialTextView!
   @IBOutlet weak var label: AnimatableMaterialLabel!
-  
+  @IBOutlet weak var searchBar: AnimatableMaterialSearchBar!
+
   
   override func viewDidLoad() {
     prepareEmailField()
+    prepareSearchBar()
     label.font = RobotoFont.lightWithSize(18)
     label.text = "AnimatableMaterialLabel"
     label.textAlignment = .Center
@@ -34,6 +36,19 @@ class AnimatableMaterialErrorTextFieldViewController: UIViewController, UITextFi
     emailField.placeholderActiveColor = MaterialColor.pink.base
     emailField.dividerColor = MaterialColor.cyan.base
     
+  }
+  
+  private func prepareSearchBar() {
+    let image: UIImage? = MaterialIcon.cm.moreVertical
+    
+    // More button.
+    let moreButton: IconButton = IconButton()
+    moreButton.pulseColor = MaterialColor.grey.base
+    moreButton.tintColor = MaterialColor.grey.darken4
+    moreButton.setImage(image, forState: .Normal)
+    moreButton.setImage(image, forState: .Highlighted)
+
+    searchBar.leftControls = [moreButton]
   }
   
   func textFieldShouldReturn(textField: UITextField) -> Bool {

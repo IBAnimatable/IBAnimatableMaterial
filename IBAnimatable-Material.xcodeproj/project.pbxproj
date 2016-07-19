@@ -16,6 +16,7 @@
 		5E77988C1D3DBECB00D693BB /* AnimatableMaterialTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E77988B1D3DBECB00D693BB /* AnimatableMaterialTextView.swift */; };
 		5E77988E1D3DC25D00D693BB /* AnimatableMaterialErrorTextFieldAndTextViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E77988D1D3DC25D00D693BB /* AnimatableMaterialErrorTextFieldAndTextViewViewController.swift */; };
 		5E7798901D3DC87A00D693BB /* AnimatableMaterialLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E77988F1D3DC87A00D693BB /* AnimatableMaterialLabel.swift */; };
+		5E7798921D3DCE0200D693BB /* AnimatableMaterialSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7798911D3DCE0200D693BB /* AnimatableMaterialSearchBar.swift */; };
 		5E89530E1D3677BD00E54575 /* AnimatableMaterialFabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E89530D1D3677BD00E54575 /* AnimatableMaterialFabButton.swift */; };
 		5E8953171D36853A00E54575 /* AnimatableMaterialCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8953161D36853A00E54575 /* AnimatableMaterialCardView.swift */; };
 		5E8953191D3689C700E54575 /* AnimatableMaterialCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8953181D3689C700E54575 /* AnimatableMaterialCardViewController.swift */; };
@@ -47,6 +48,7 @@
 		5E77988B1D3DBECB00D693BB /* AnimatableMaterialTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialTextView.swift; sourceTree = "<group>"; };
 		5E77988D1D3DC25D00D693BB /* AnimatableMaterialErrorTextFieldAndTextViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialErrorTextFieldAndTextViewViewController.swift; sourceTree = "<group>"; };
 		5E77988F1D3DC87A00D693BB /* AnimatableMaterialLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialLabel.swift; sourceTree = "<group>"; };
+		5E7798911D3DCE0200D693BB /* AnimatableMaterialSearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialSearchBar.swift; sourceTree = "<group>"; };
 		5E89530D1D3677BD00E54575 /* AnimatableMaterialFabButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialFabButton.swift; sourceTree = "<group>"; };
 		5E8953161D36853A00E54575 /* AnimatableMaterialCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialCardView.swift; sourceTree = "<group>"; };
 		5E8953181D3689C700E54575 /* AnimatableMaterialCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialCardViewController.swift; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 				5E8953161D36853A00E54575 /* AnimatableMaterialCardView.swift */,
 				5E7798811D3C52E300D693BB /* AnimatableMaterialImageCardView .swift */,
 				5E7798851D3C652900D693BB /* AnimatableMaterialControlView.swift */,
+				5E7798911D3DCE0200D693BB /* AnimatableMaterialSearchBar.swift */,
 			);
 			name = Code;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 				E922835C1D33C95D0049DE28 /* AnimatableMaterialTextField.swift in Sources */,
 				AEFC55DB1D32212D00D9EC01 /* AppDelegate.swift in Sources */,
 				5E7798861D3C652900D693BB /* AnimatableMaterialControlView.swift in Sources */,
+				5E7798921D3DCE0200D693BB /* AnimatableMaterialSearchBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
