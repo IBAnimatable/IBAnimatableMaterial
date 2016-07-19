@@ -8,6 +8,7 @@
 
 import Foundation
 import Material
+import IBAnimatableMaterial
 import IBAnimatable
 
 private enum components: String {

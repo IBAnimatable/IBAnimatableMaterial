@@ -1,6 +1,11 @@
 platform :ios, '9.0'
 use_frameworks!
+
+target 'IBAnimatableMaterial' do
+    pod 'IBAnimatable'
+    pod 'Material'
+end
 target 'IBAnimatable-Material' do
-  pod 'IBAnimatable'
-  pod 'Material'
+    pod 'IBAnimatable'
+    pod 'Material'
 end
