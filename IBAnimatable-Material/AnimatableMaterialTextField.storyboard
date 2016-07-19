@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Mtn-GM-Eic">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="juB-l0-SRa">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -100,7 +100,117 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MR0-gJ-4ga" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="248" y="273"/>
+            <point key="canvasLocation" x="203.5" y="273.5"/>
+        </scene>
+        <!--Animatable Material Error Text Field View Controller-->
+        <scene sceneID="mSw-jz-mZ3">
+            <objects>
+                <viewController storyboardIdentifier="AnimatableMaterialErrorTextField" id="juB-l0-SRa" customClass="AnimatableMaterialErrorTextFieldViewController" customModule="IBAnimatable_Material" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="M1P-ae-b9Y"/>
+                        <viewControllerLayoutGuide type="bottom" id="jtL-1c-BFh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tdf-aO-tH8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KYx-iP-ORa" customClass="AnimatableMaterialErrorTextField" customModule="IBAnimatable_Material" customModuleProvider="target">
+                                <rect key="frame" x="20" y="176" width="374" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="I8c-5o-TsJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animationType" value="Wobble"/>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="This is an AnimatableMaterialTextView" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="x5X-ZQ-n1e" customClass="AnimatableMaterialTextView" customModule="IBAnimatable_Material" customModuleProvider="target">
+                                <rect key="frame" x="20" y="238" width="374" height="187"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.70980392160000005" green="0.4549019608" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.20000000000000001"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animationType" value="Wobble"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" red="0.074509803920000006" green="0.1019607843" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="delay">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="velocity">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="SZd-GF-jYD" customClass="AnimatableMaterialLabel" customModule="IBAnimatable_Material" customModuleProvider="target">
+                                <rect key="frame" x="20" y="99" width="374" height="23"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="23" id="dCz-Oj-BTy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                        <color key="value" red="0.70980392160000005" green="0.4549019608" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="wrapped" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animationType" value="SlideInLeft"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="borderSide" value="Right, Left"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.1819814891" green="0.69426733259999995" blue="0.53024792669999998" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="text" value="Label"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="delay">
+                                        <real key="value" value="0.29999999999999999"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JsW-dY-qTL" customClass="AnimatableMaterialSearchBar" customModule="IBAnimatable_Material" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animationType" value="SlideInRight"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="x5X-ZQ-n1e" firstAttribute="top" secondItem="KYx-iP-ORa" secondAttribute="bottom" constant="32" id="1eR-yw-ESO"/>
+                            <constraint firstItem="JsW-dY-qTL" firstAttribute="centerX" secondItem="SZd-GF-jYD" secondAttribute="centerX" id="3N8-DY-0f3"/>
+                            <constraint firstItem="KYx-iP-ORa" firstAttribute="leading" secondItem="x5X-ZQ-n1e" secondAttribute="leading" id="4NO-ew-fi2"/>
+                            <constraint firstItem="SZd-GF-jYD" firstAttribute="leading" secondItem="KYx-iP-ORa" secondAttribute="leading" id="EHW-PP-g4a"/>
+                            <constraint firstItem="JsW-dY-qTL" firstAttribute="top" secondItem="tdf-aO-tH8" secondAttribute="top" id="HNV-tJ-4K5"/>
+                            <constraint firstItem="KYx-iP-ORa" firstAttribute="trailing" secondItem="x5X-ZQ-n1e" secondAttribute="trailing" id="HfY-M8-UYc"/>
+                            <constraint firstItem="SZd-GF-jYD" firstAttribute="trailing" secondItem="KYx-iP-ORa" secondAttribute="trailing" id="Lgg-CZ-u7y"/>
+                            <constraint firstItem="SZd-GF-jYD" firstAttribute="top" secondItem="JsW-dY-qTL" secondAttribute="bottom" constant="55" id="Sse-Ja-OK6"/>
+                            <constraint firstItem="JsW-dY-qTL" firstAttribute="leading" secondItem="tdf-aO-tH8" secondAttribute="leading" id="eo5-IQ-Qcr"/>
+                            <constraint firstItem="KYx-iP-ORa" firstAttribute="top" secondItem="SZd-GF-jYD" secondAttribute="bottom" constant="54" id="hMf-gv-Pc9"/>
+                            <constraint firstItem="jtL-1c-BFh" firstAttribute="top" secondItem="x5X-ZQ-n1e" secondAttribute="bottom" constant="311" id="vx1-HR-Kab"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="emailField" destination="KYx-iP-ORa" id="5ce-4P-sCb"/>
+                        <outlet property="label" destination="SZd-GF-jYD" id="ahf-dF-3iw"/>
+                        <outlet property="searchBar" destination="JsW-dY-qTL" id="nra-on-CO5"/>
+                        <outlet property="textView" destination="x5X-ZQ-n1e" id="ZIW-qp-Csd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PWn-1r-vJj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="657" y="308"/>
         </scene>
     </scenes>
 </document>
