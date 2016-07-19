@@ -50,6 +50,7 @@
 		E953D8C81D3E280500647D4D /* AnimatableMaterialCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8953161D36853A00E54575 /* AnimatableMaterialCardView.swift */; };
 		E953D8C91D3E280500647D4D /* AnimatableMaterialImageCardView .swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7798811D3C52E300D693BB /* AnimatableMaterialImageCardView .swift */; };
 		E953D8CA1D3E280500647D4D /* AnimatableMaterialControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7798851D3C652900D693BB /* AnimatableMaterialControlView.swift */; };
+		E953D8CC1D3E379800647D4D /* IBAnimatableMaterial.podspec in Resources */ = {isa = PBXBuildFile; fileRef = E953D8CB1D3E379800647D4D /* IBAnimatableMaterial.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -138,6 +139,7 @@
 		E953D8AD1D3E278700647D4D /* IBAnimatableMaterialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IBAnimatableMaterialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E953D8B41D3E278700647D4D /* IBAnimatableMaterialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBAnimatableMaterialTests.swift; sourceTree = "<group>"; };
 		E953D8B61D3E278700647D4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E953D8CB1D3E379800647D4D /* IBAnimatableMaterial.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = IBAnimatableMaterial.podspec; sourceTree = "<group>"; };
 		FB3026755E5171F9BCB8FAF3 /* Pods_IBAnimatableMaterial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IBAnimatableMaterial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -173,6 +175,7 @@
 		AEFC55CE1D32212D00D9EC01 = {
 			isa = PBXGroup;
 			children = (
+				E953D8CB1D3E379800647D4D /* IBAnimatableMaterial.podspec */,
 				AEFC55D91D32212D00D9EC01 /* IBAnimatable-Material */,
 				E953D8A51D3E278700647D4D /* IBAnimatableMaterial */,
 				E953D8B31D3E278700647D4D /* IBAnimatableMaterialTests */,
@@ -426,6 +429,7 @@
 				AEFC55E01D32212D00D9EC01 /* Main.storyboard in Resources */,
 				E922835B1D33C95D0049DE28 /* AnimatableMaterialTextField.storyboard in Resources */,
 				5E89531D1D368F1F00E54575 /* AnimatableMaterialCardView.storyboard in Resources */,
+				E953D8CC1D3E379800647D4D /* IBAnimatableMaterial.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
