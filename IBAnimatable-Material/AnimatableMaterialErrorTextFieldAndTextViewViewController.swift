@@ -14,9 +14,14 @@ class AnimatableMaterialErrorTextFieldViewController: UIViewController, UITextFi
   
   @IBOutlet weak var emailField: AnimatableMaterialErrorTextField!
   @IBOutlet weak var textView: AnimatableMaterialTextView!
+  @IBOutlet weak var label: AnimatableMaterialLabel!
+  
   
   override func viewDidLoad() {
     prepareEmailField()
+    label.font = RobotoFont.lightWithSize(18)
+    label.text = "AnimatableMaterialLabel"
+    label.textAlignment = .Center
   }
   
   private func prepareEmailField() {
