@@ -1,17 +1,51 @@
 //
-//  AnimatableMaterialTextField.swift
+//  AnimatableMaterialTextView.swift
 //  IBAnimatable-Material
 //
-//  Created by Damien Tsenkoff on 7/11/16.
+//  Created by George Kye on 2016-07-18.
 //  Copyright © 2016 IBAnimatable. All rights reserved.
 //
 
 import Foundation
-import Material
 import IBAnimatable
+import Material
+
+
 
 @IBDesignable
-public class AnimatableMaterialTextField: TextField, Animatable {
+public class AnimatableMaterialTextView: TextView, CornerDesignable, FillDesignable, BorderDesignable, Animatable {
+  
+  
+  // MARK: - FillDesignable
+  @IBInspectable public var fillColor: UIColor? {
+    didSet {
+      configFillColor()
+    }
+  }
+  
+  @IBInspectable public var predefinedColor: String? {
+    didSet {
+      configFillColor()
+    }
+  }
+  
+  @IBInspectable public var opacity: CGFloat = CGFloat.NaN {
+    didSet {
+      configOpacity()
+    }
+  }
+  
+  // MARK: - BorderDesignable
+  
+  @IBInspectable public var borderSide: String? {
+    didSet {
+      configBorder()
+    }
+  }
+  
+  // MARK: - PlaceholderDesignable
+  
+  
   // MARK: - Animatable
   @IBInspectable public var animationType: String?
   @IBInspectable public var autoRun: Bool = true

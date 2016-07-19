@@ -1,8 +1,8 @@
 //
-//  AnimatableMaterialTextField.swift
+//  AnimatableMaterialErrorTextField .swift
 //  IBAnimatable-Material
 //
-//  Created by Damien Tsenkoff on 7/11/16.
+//  Created by George Kye on 2016-07-18.
 //  Copyright © 2016 IBAnimatable. All rights reserved.
 //
 
@@ -11,7 +11,7 @@ import Material
 import IBAnimatable
 
 @IBDesignable
-public class AnimatableMaterialTextField: TextField, Animatable {
+public class AnimatableMaterialErrorTextField: ErrorTextField, Animatable {
   // MARK: - Animatable
   @IBInspectable public var animationType: String?
   @IBInspectable public var autoRun: Bool = true

@@ -11,10 +11,10 @@ import Material
 import IBAnimatable
 
 private enum components: String {
-  case AnimatableMaterialButtons, AnimatableMaterialTextField, AnimatableMaterialCardView
+  case AnimatableMaterialButtons, AnimatableMaterialTextField, AnimatableMaterialErrorTextField = "AnimatableMaterialErrorTextField and TextView", AnimatableMaterialCardView
   case AnimatableImageCardView, AnimatableControlView
   
-  static let AllValues = [AnimatableMaterialButtons, AnimatableMaterialTextField, AnimatableMaterialCardView, AnimatableImageCardView, AnimatableControlView]
+  static let AllValues = [AnimatableMaterialButtons, AnimatableMaterialTextField, AnimatableMaterialErrorTextField, AnimatableMaterialCardView, AnimatableImageCardView, AnimatableControlView]
 }
 
 
@@ -79,6 +79,8 @@ class MainTableView: UITableViewController {
       performSegueWithIdentifier("toAnimatableMaterialButtons", sender: self)
     case .AnimatableMaterialTextField:
       performSegueWithIdentifier("toAnimatableMaterialTextField", sender: self)
+    case .AnimatableMaterialErrorTextField:
+      performSegueWithIdentifier("toAnimatableMaterialErrorTextField", sender: self)
     case .AnimatableMaterialCardView:
       performSegueWithIdentifier("toAnimatableMaterialCardView", sender: self)
     case .AnimatableImageCardView:
