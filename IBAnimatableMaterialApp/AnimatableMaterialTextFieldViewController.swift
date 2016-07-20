@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import IBAnimatableMaterial
 
 /**
  This view controller class is internal and only for the demo/example application. It shows a `AnimatableMaterialTextField` in action.

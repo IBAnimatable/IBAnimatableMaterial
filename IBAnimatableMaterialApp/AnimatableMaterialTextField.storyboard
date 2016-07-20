@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="juB-l0-SRa">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Mtn-GM-Eic">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -8,7 +8,7 @@
         <!--Animatable Material Text Field View Controller-->
         <scene sceneID="2Es-BS-x2H">
             <objects>
-                <viewController storyboardIdentifier="AnimatableMaterialTextField" id="Mtn-GM-Eic" customClass="AnimatableMaterialTextFieldViewController" customModule="IBAnimatable_Material" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AnimatableMaterialTextField" id="Mtn-GM-Eic" customClass="AnimatableMaterialTextFieldViewController" customModule="IBAnimatableMaterialApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jEb-So-XtW"/>
                         <viewControllerLayoutGuide type="bottom" id="XJ7-if-7wa"/>
@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VRS-47-gQd" customClass="AnimatableMaterialTextField" customModule="IBAnimatable_Material">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VRS-47-gQd" customClass="AnimatableMaterialTextField" customModule="IBAnimatableMaterial">
                                 <rect key="frame" x="62" y="237" width="250" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="250" id="dyO-55-yMz"/>
@@ -41,7 +41,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x9R-v6-sMv" customClass="AnimatableRaisedButton" customModule="IBAnimatable_Material">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x9R-v6-sMv" customClass="AnimatableRaisedButton" customModule="IBAnimatableMaterial">
                                 <rect key="frame" x="87" y="607" width="200" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="POG-H6-pGn"/>
@@ -105,7 +105,7 @@
         <!--Animatable Material Error Text Field View Controller-->
         <scene sceneID="mSw-jz-mZ3">
             <objects>
-                <viewController storyboardIdentifier="AnimatableMaterialErrorTextField" id="juB-l0-SRa" customClass="AnimatableMaterialErrorTextFieldViewController" customModule="IBAnimatable_Material" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AnimatableMaterialErrorTextField" id="juB-l0-SRa" customClass="AnimatableMaterialErrorTextFieldViewController" customModule="IBAnimatableMaterialApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="M1P-ae-b9Y"/>
                         <viewControllerLayoutGuide type="bottom" id="jtL-1c-BFh"/>
@@ -114,7 +114,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KYx-iP-ORa" customClass="AnimatableMaterialErrorTextField" customModule="IBAnimatable_Material" customModuleProvider="target">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KYx-iP-ORa" customClass="AnimatableMaterialErrorTextField" customModule="IBAnimatableMaterial">
                                 <rect key="frame" x="20" y="176" width="374" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="I8c-5o-TsJ"/>
@@ -125,7 +125,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="animationType" value="Wobble"/>
                                 </userDefinedRuntimeAttributes>
                             </textField>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="This is an AnimatableMaterialTextView" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="x5X-ZQ-n1e" customClass="AnimatableMaterialTextView" customModule="IBAnimatable_Material" customModuleProvider="target">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="This is an AnimatableMaterialTextView" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="x5X-ZQ-n1e" customClass="AnimatableMaterialTextView" customModule="IBAnimatableMaterial">
                                 <rect key="frame" x="20" y="238" width="374" height="187"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="textColor" red="0.70980392160000005" green="0.4549019608" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
@@ -150,13 +150,13 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="SZd-GF-jYD" customClass="AnimatableMaterialLabel" customModule="IBAnimatable_Material" customModuleProvider="target">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="SZd-GF-jYD" customClass="AnimatableMaterialLabel" customModule="IBAnimatableMaterial">
                                 <rect key="frame" x="20" y="99" width="374" height="23"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="23" id="dCz-Oj-BTy"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="textColor">
@@ -177,7 +177,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </label>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JsW-dY-qTL" customClass="AnimatableMaterialSearchBar" customModule="IBAnimatable_Material" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JsW-dY-qTL" customClass="AnimatableMaterialSearchBar" customModule="IBAnimatableMaterial">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <userDefinedRuntimeAttributes>

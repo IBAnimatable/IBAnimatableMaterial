@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import IBAnimatableMaterial
 import IBAnimatable
 import Material
 

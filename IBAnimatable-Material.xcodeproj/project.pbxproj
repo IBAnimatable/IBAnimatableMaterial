@@ -7,83 +7,135 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5E11C6531D358A8C00318B7C /* AnimatableFlatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E11C6521D358A8C00318B7C /* AnimatableFlatButton.swift */; };
-		5E7798821D3C52E300D693BB /* AnimatableMaterialImageCardView .swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7798811D3C52E300D693BB /* AnimatableMaterialImageCardView .swift */; };
+		3DF0F761DE900B1BB96AE2BC /* Pods_IBAnimatableMaterial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB3026755E5171F9BCB8FAF3 /* Pods_IBAnimatableMaterial.framework */; };
 		5E7798841D3C560D00D693BB /* AnimatableMaterialImageCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7798831D3C560D00D693BB /* AnimatableMaterialImageCardViewController.swift */; };
-		5E7798861D3C652900D693BB /* AnimatableMaterialControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7798851D3C652900D693BB /* AnimatableMaterialControlView.swift */; };
 		5E7798881D3C65DA00D693BB /* AnimatableMaterialControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7798871D3C65DA00D693BB /* AnimatableMaterialControlViewController.swift */; };
-		5E77988A1D3DBC5500D693BB /* AnimatableMaterialErrorTextField .swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7798891D3DBC5500D693BB /* AnimatableMaterialErrorTextField .swift */; };
-		5E77988C1D3DBECB00D693BB /* AnimatableMaterialTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E77988B1D3DBECB00D693BB /* AnimatableMaterialTextView.swift */; };
 		5E77988E1D3DC25D00D693BB /* AnimatableMaterialErrorTextFieldAndTextViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E77988D1D3DC25D00D693BB /* AnimatableMaterialErrorTextFieldAndTextViewViewController.swift */; };
-		5E7798901D3DC87A00D693BB /* AnimatableMaterialLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E77988F1D3DC87A00D693BB /* AnimatableMaterialLabel.swift */; };
-		5E7798921D3DCE0200D693BB /* AnimatableMaterialSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7798911D3DCE0200D693BB /* AnimatableMaterialSearchBar.swift */; };
-		5E7798941D3EED9400D693BB /* AnimatableMaterialCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7798931D3EED9400D693BB /* AnimatableMaterialCollectionViewCell.swift */; };
 		5E7798961D3EEF6300D693BB /* AnimatableMaterialCollectionViewCellViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E7798951D3EEF6300D693BB /* AnimatableMaterialCollectionViewCellViewController.storyboard */; };
 		5E77989A1D3EF02A00D693BB /* AnimatableMaterialCollectionViewCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7798991D3EF02A00D693BB /* AnimatableMaterialCollectionViewCellViewController.swift */; };
-		5E77989C1D3EF7A700D693BB /* AnimatableMaterialMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E77989B1D3EF7A700D693BB /* AnimatableMaterialMenuView.swift */; };
-		5E77989E1D3EF86F00D693BB /* AnimatableMaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E77989D1D3EF86F00D693BB /* AnimatableMaterialButton.swift */; };
-		5E7798A01D3EFE9100D693BB /* AnimatableMaterialIconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E77989F1D3EFE9100D693BB /* AnimatableMaterialIconButton.swift */; };
-		5E7798A21D3F06EB00D693BB /* AnimatableMaterialPulseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7798A11D3F06EB00D693BB /* AnimatableMaterialPulseView.swift */; };
-		5E89530E1D3677BD00E54575 /* AnimatableMaterialFabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E89530D1D3677BD00E54575 /* AnimatableMaterialFabButton.swift */; };
-		5E8953171D36853A00E54575 /* AnimatableMaterialCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8953161D36853A00E54575 /* AnimatableMaterialCardView.swift */; };
 		5E8953191D3689C700E54575 /* AnimatableMaterialCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8953181D3689C700E54575 /* AnimatableMaterialCardViewController.swift */; };
 		5E89531D1D368F1F00E54575 /* AnimatableMaterialCardView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E89531C1D368F1F00E54575 /* AnimatableMaterialCardView.storyboard */; };
-		5F063812EEDF15E945BCDE03 /* Pods_IBAnimatable_Material.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 392544B9DD945B6E07C5EFA3 /* Pods_IBAnimatable_Material.framework */; };
-		AEFC55DB1D32212D00D9EC01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFC55DA1D32212D00D9EC01 /* AppDelegate.swift */; };
-		AEFC55DD1D32212D00D9EC01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFC55DC1D32212D00D9EC01 /* ViewController.swift */; };
-		AEFC55E01D32212D00D9EC01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEFC55DE1D32212D00D9EC01 /* Main.storyboard */; };
+		AE4948571D3FAEC400A2DC24 /* IBAnimatableMaterial.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E953D8A41D3E278700647D4D /* IBAnimatableMaterial.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AE4948581D3FAEE800A2DC24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFC55DA1D32212D00D9EC01 /* AppDelegate.swift */; };
+		AE4948591D3FAEE800A2DC24 /* AnimatableMaterialTextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E922835A1D33C95D0049DE28 /* AnimatableMaterialTextFieldViewController.swift */; };
+		AE49485A1D3FAEE800A2DC24 /* MainTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92283451D33C59D0049DE28 /* MainTableView.swift */; };
+		AE4948601D3FB44300A2DC24 /* AnimatableFlatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE49485B1D3FB44300A2DC24 /* AnimatableFlatButton.swift */; };
+		AE4948611D3FB44300A2DC24 /* AnimatableMaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE49485C1D3FB44300A2DC24 /* AnimatableMaterialButton.swift */; };
+		AE4948631D3FB44300A2DC24 /* AnimatableMaterialIconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE49485E1D3FB44300A2DC24 /* AnimatableMaterialIconButton.swift */; };
+		AE4948641D3FB44300A2DC24 /* AnimatableRaisedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE49485F1D3FB44300A2DC24 /* AnimatableRaisedButton.swift */; };
+		AE49486A1D3FB45D00A2DC24 /* AnimatableMaterialCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4948651D3FB45D00A2DC24 /* AnimatableMaterialCardView.swift */; };
+		AE49486B1D3FB45D00A2DC24 /* AnimatableMaterialControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4948661D3FB45D00A2DC24 /* AnimatableMaterialControlView.swift */; };
+		AE49486C1D3FB45D00A2DC24 /* AnimatableMaterialImageCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4948671D3FB45D00A2DC24 /* AnimatableMaterialImageCardView.swift */; };
+		AE49486D1D3FB45D00A2DC24 /* AnimatableMaterialPulseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4948681D3FB45D00A2DC24 /* AnimatableMaterialPulseView.swift */; };
+		AE49486E1D3FB45D00A2DC24 /* AnimatableMaterialTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4948691D3FB45D00A2DC24 /* AnimatableMaterialTextView.swift */; };
+		AE4948711D3FB46F00A2DC24 /* AnimatableMaterialCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE49486F1D3FB46F00A2DC24 /* AnimatableMaterialCollectionViewCell.swift */; };
+		AE4948721D3FB46F00A2DC24 /* AnimatableMaterialTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4948701D3FB46F00A2DC24 /* AnimatableMaterialTableViewCell.swift */; };
+		AE4948751D3FB48A00A2DC24 /* AnimatableMaterialLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4948731D3FB48A00A2DC24 /* AnimatableMaterialLabel.swift */; };
+		AE4948761D3FB48A00A2DC24 /* AnimatableMaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4948741D3FB48A00A2DC24 /* AnimatableMaterialTextField.swift */; };
+		AE4948781D3FB49200A2DC24 /* AnimatableMaterialMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4948771D3FB49200A2DC24 /* AnimatableMaterialMenuView.swift */; };
+		AE49487B1D3FB4A300A2DC24 /* AnimatableMaterialNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4948791D3FB4A300A2DC24 /* AnimatableMaterialNavBar.swift */; };
+		AE49487C1D3FB4A300A2DC24 /* AnimatableMaterialSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE49487A1D3FB4A300A2DC24 /* AnimatableMaterialSearchBar.swift */; };
+		AE49487E1D3FB53300A2DC24 /* AnimatableMaterialErrorTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE49487D1D3FB53300A2DC24 /* AnimatableMaterialErrorTextField.swift */; };
+		AE4948801D3FB57300A2DC24 /* AnimatableMaterialFabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE49487F1D3FB57300A2DC24 /* AnimatableMaterialFabButton.swift */; };
+		AE4948831D3FB7A700A2DC24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEFC55DE1D32212D00D9EC01 /* Main.storyboard */; };
+		AE4948841D3FB7A700A2DC24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEFC55E31D32212D00D9EC01 /* LaunchScreen.storyboard */; };
 		AEFC55E21D32212D00D9EC01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEFC55E11D32212D00D9EC01 /* Assets.xcassets */; };
-		AEFC55E51D32212D00D9EC01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEFC55E31D32212D00D9EC01 /* LaunchScreen.storyboard */; };
-		AEFC55ED1D32416E00D9EC01 /* AnimatableRaisedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFC55EC1D32416E00D9EC01 /* AnimatableRaisedButton.swift */; };
-		E92283461D33C59D0049DE28 /* MainTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92283451D33C59D0049DE28 /* MainTableView.swift */; };
 		E922835B1D33C95D0049DE28 /* AnimatableMaterialTextField.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E92283581D33C95D0049DE28 /* AnimatableMaterialTextField.storyboard */; };
-		E922835C1D33C95D0049DE28 /* AnimatableMaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92283591D33C95D0049DE28 /* AnimatableMaterialTextField.swift */; };
-		E922835D1D33C95D0049DE28 /* AnimatableMaterialTextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E922835A1D33C95D0049DE28 /* AnimatableMaterialTextFieldViewController.swift */; };
-		E922835F1D33C9930049DE28 /* AnimatableMaterialNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E922835E1D33C9930049DE28 /* AnimatableMaterialNavBar.swift */; };
-		E92283611D33CA4A0049DE28 /* AnimatableMaterialTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92283601D33CA4A0049DE28 /* AnimatableMaterialTableViewCell.swift */; };
 		E92283661D33CAA90049DE28 /* AnimatableMaterialButtons.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E92283651D33CAA90049DE28 /* AnimatableMaterialButtons.storyboard */; };
+		E953D8A71D3E278700647D4D /* IBAnimatableMaterial.h in Headers */ = {isa = PBXBuildFile; fileRef = E953D8A61D3E278700647D4D /* IBAnimatableMaterial.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E953D8AE1D3E278700647D4D /* IBAnimatableMaterial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E953D8A41D3E278700647D4D /* IBAnimatableMaterial.framework */; };
+		E953D8B51D3E278700647D4D /* IBAnimatableMaterialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E953D8B41D3E278700647D4D /* IBAnimatableMaterialTests.swift */; };
+		ED0EF34F8A486385EA8D0EB4 /* Pods_IBAnimatableMaterialApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 902930B75F76D17D0DFFF667 /* Pods_IBAnimatableMaterialApp.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		AE4948551D3FAE8600A2DC24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEFC55CF1D32212D00D9EC01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E953D8A31D3E278700647D4D;
+			remoteInfo = IBAnimatableMaterial;
+		};
+		E953D8AF1D3E278700647D4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEFC55CF1D32212D00D9EC01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E953D8A31D3E278700647D4D;
+			remoteInfo = IBAnimatableMaterial;
+		};
+		E953D8B11D3E278700647D4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEFC55CF1D32212D00D9EC01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEFC55D61D32212D00D9EC01;
+			remoteInfo = "IBAnimatable-Material";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E953D8C01D3E278700647D4D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AE4948571D3FAEC400A2DC24 /* IBAnimatableMaterial.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		392544B9DD945B6E07C5EFA3 /* Pods_IBAnimatable_Material.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IBAnimatable_Material.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E11C6521D358A8C00318B7C /* AnimatableFlatButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableFlatButton.swift; sourceTree = "<group>"; };
-		5E7798811D3C52E300D693BB /* AnimatableMaterialImageCardView .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AnimatableMaterialImageCardView .swift"; sourceTree = "<group>"; };
 		5E7798831D3C560D00D693BB /* AnimatableMaterialImageCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialImageCardViewController.swift; sourceTree = "<group>"; };
-		5E7798851D3C652900D693BB /* AnimatableMaterialControlView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialControlView.swift; sourceTree = "<group>"; };
 		5E7798871D3C65DA00D693BB /* AnimatableMaterialControlViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialControlViewController.swift; sourceTree = "<group>"; };
-		5E7798891D3DBC5500D693BB /* AnimatableMaterialErrorTextField .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AnimatableMaterialErrorTextField .swift"; sourceTree = "<group>"; };
-		5E77988B1D3DBECB00D693BB /* AnimatableMaterialTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialTextView.swift; sourceTree = "<group>"; };
 		5E77988D1D3DC25D00D693BB /* AnimatableMaterialErrorTextFieldAndTextViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialErrorTextFieldAndTextViewViewController.swift; sourceTree = "<group>"; };
-		5E77988F1D3DC87A00D693BB /* AnimatableMaterialLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialLabel.swift; sourceTree = "<group>"; };
-		5E7798911D3DCE0200D693BB /* AnimatableMaterialSearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialSearchBar.swift; sourceTree = "<group>"; };
-		5E7798931D3EED9400D693BB /* AnimatableMaterialCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialCollectionViewCell.swift; sourceTree = "<group>"; };
 		5E7798951D3EEF6300D693BB /* AnimatableMaterialCollectionViewCellViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AnimatableMaterialCollectionViewCellViewController.storyboard; sourceTree = "<group>"; };
 		5E7798991D3EF02A00D693BB /* AnimatableMaterialCollectionViewCellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialCollectionViewCellViewController.swift; sourceTree = "<group>"; };
-		5E77989B1D3EF7A700D693BB /* AnimatableMaterialMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialMenuView.swift; sourceTree = "<group>"; };
-		5E77989D1D3EF86F00D693BB /* AnimatableMaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialButton.swift; sourceTree = "<group>"; };
-		5E77989F1D3EFE9100D693BB /* AnimatableMaterialIconButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialIconButton.swift; sourceTree = "<group>"; };
-		5E7798A11D3F06EB00D693BB /* AnimatableMaterialPulseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialPulseView.swift; sourceTree = "<group>"; };
-		5E89530D1D3677BD00E54575 /* AnimatableMaterialFabButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialFabButton.swift; sourceTree = "<group>"; };
-		5E8953161D36853A00E54575 /* AnimatableMaterialCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialCardView.swift; sourceTree = "<group>"; };
 		5E8953181D3689C700E54575 /* AnimatableMaterialCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialCardViewController.swift; sourceTree = "<group>"; };
 		5E89531C1D368F1F00E54575 /* AnimatableMaterialCardView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AnimatableMaterialCardView.storyboard; sourceTree = "<group>"; };
-		751679D2A4128C8DB78EB63F /* Pods-IBAnimatable-Material.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBAnimatable-Material.release.xcconfig"; path = "Pods/Target Support Files/Pods-IBAnimatable-Material/Pods-IBAnimatable-Material.release.xcconfig"; sourceTree = "<group>"; };
-		AEFC55D71D32212D00D9EC01 /* IBAnimatable-Material.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IBAnimatable-Material.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69CD4C2929274C9999D253DF /* Pods-IBAnimatableMaterial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBAnimatableMaterial.release.xcconfig"; path = "Pods/Target Support Files/Pods-IBAnimatableMaterial/Pods-IBAnimatableMaterial.release.xcconfig"; sourceTree = "<group>"; };
+		846C1357CC810BF3298F1831 /* Pods-IBAnimatableMaterial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBAnimatableMaterial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IBAnimatableMaterial/Pods-IBAnimatableMaterial.debug.xcconfig"; sourceTree = "<group>"; };
+		902930B75F76D17D0DFFF667 /* Pods_IBAnimatableMaterialApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IBAnimatableMaterialApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE49485B1D3FB44300A2DC24 /* AnimatableFlatButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableFlatButton.swift; sourceTree = "<group>"; };
+		AE49485C1D3FB44300A2DC24 /* AnimatableMaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialButton.swift; sourceTree = "<group>"; };
+		AE49485E1D3FB44300A2DC24 /* AnimatableMaterialIconButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialIconButton.swift; sourceTree = "<group>"; };
+		AE49485F1D3FB44300A2DC24 /* AnimatableRaisedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableRaisedButton.swift; sourceTree = "<group>"; };
+		AE4948651D3FB45D00A2DC24 /* AnimatableMaterialCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialCardView.swift; sourceTree = "<group>"; };
+		AE4948661D3FB45D00A2DC24 /* AnimatableMaterialControlView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialControlView.swift; sourceTree = "<group>"; };
+		AE4948671D3FB45D00A2DC24 /* AnimatableMaterialImageCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialImageCardView.swift; sourceTree = "<group>"; };
+		AE4948681D3FB45D00A2DC24 /* AnimatableMaterialPulseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialPulseView.swift; sourceTree = "<group>"; };
+		AE4948691D3FB45D00A2DC24 /* AnimatableMaterialTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialTextView.swift; sourceTree = "<group>"; };
+		AE49486F1D3FB46F00A2DC24 /* AnimatableMaterialCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialCollectionViewCell.swift; sourceTree = "<group>"; };
+		AE4948701D3FB46F00A2DC24 /* AnimatableMaterialTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialTableViewCell.swift; sourceTree = "<group>"; };
+		AE4948731D3FB48A00A2DC24 /* AnimatableMaterialLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialLabel.swift; sourceTree = "<group>"; };
+		AE4948741D3FB48A00A2DC24 /* AnimatableMaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialTextField.swift; sourceTree = "<group>"; };
+		AE4948771D3FB49200A2DC24 /* AnimatableMaterialMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialMenuView.swift; sourceTree = "<group>"; };
+		AE4948791D3FB4A300A2DC24 /* AnimatableMaterialNavBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialNavBar.swift; sourceTree = "<group>"; };
+		AE49487A1D3FB4A300A2DC24 /* AnimatableMaterialSearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialSearchBar.swift; sourceTree = "<group>"; };
+		AE49487D1D3FB53300A2DC24 /* AnimatableMaterialErrorTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialErrorTextField.swift; sourceTree = "<group>"; };
+		AE49487F1D3FB57300A2DC24 /* AnimatableMaterialFabButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialFabButton.swift; sourceTree = "<group>"; };
+		AE77A4291D3F2D6500EF8651 /* IBAnimatable.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IBAnimatable.framework; path = "../../../Library/Developer/Xcode/DerivedData/IBAnimatable-Material-cjdagdqeuoiddebdikaqqvnnagrh/Build/Products/Debug-iphonesimulator/IBAnimatable/IBAnimatable.framework"; sourceTree = "<group>"; };
+		AE77A42B1D3F2D6900EF8651 /* Material.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Material.framework; path = "../../../Library/Developer/Xcode/DerivedData/IBAnimatable-Material-cjdagdqeuoiddebdikaqqvnnagrh/Build/Products/Debug-iphonesimulator/Material/Material.framework"; sourceTree = "<group>"; };
+		AEFC55D71D32212D00D9EC01 /* IBAnimatableMaterialApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IBAnimatableMaterialApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEFC55DA1D32212D00D9EC01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AEFC55DC1D32212D00D9EC01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AEFC55DF1D32212D00D9EC01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AEFC55E11D32212D00D9EC01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEFC55E41D32212D00D9EC01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEFC55E61D32212D00D9EC01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AEFC55EC1D32416E00D9EC01 /* AnimatableRaisedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableRaisedButton.swift; sourceTree = "<group>"; };
-		E34E04F07CECCACE6C95A3DD /* Pods-IBAnimatable-Material.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBAnimatable-Material.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IBAnimatable-Material/Pods-IBAnimatable-Material.debug.xcconfig"; sourceTree = "<group>"; };
+		CDC59B09A525FA2165BBC1FD /* Pods-IBAnimatableMaterialApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBAnimatableMaterialApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IBAnimatableMaterialApp/Pods-IBAnimatableMaterialApp.debug.xcconfig"; sourceTree = "<group>"; };
 		E92283451D33C59D0049DE28 /* MainTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableView.swift; sourceTree = "<group>"; };
 		E92283581D33C95D0049DE28 /* AnimatableMaterialTextField.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AnimatableMaterialTextField.storyboard; sourceTree = "<group>"; };
-		E92283591D33C95D0049DE28 /* AnimatableMaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialTextField.swift; sourceTree = "<group>"; };
 		E922835A1D33C95D0049DE28 /* AnimatableMaterialTextFieldViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialTextFieldViewController.swift; sourceTree = "<group>"; };
-		E922835E1D33C9930049DE28 /* AnimatableMaterialNavBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialNavBar.swift; sourceTree = "<group>"; };
-		E92283601D33CA4A0049DE28 /* AnimatableMaterialTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialTableViewCell.swift; sourceTree = "<group>"; };
 		E92283651D33CAA90049DE28 /* AnimatableMaterialButtons.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AnimatableMaterialButtons.storyboard; sourceTree = "<group>"; };
+		E953D8A41D3E278700647D4D /* IBAnimatableMaterial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IBAnimatableMaterial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E953D8A61D3E278700647D4D /* IBAnimatableMaterial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBAnimatableMaterial.h; sourceTree = "<group>"; };
+		E953D8A81D3E278700647D4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E953D8AD1D3E278700647D4D /* IBAnimatableMaterialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IBAnimatableMaterialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E953D8B41D3E278700647D4D /* IBAnimatableMaterialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBAnimatableMaterialTests.swift; sourceTree = "<group>"; };
+		E953D8B61D3E278700647D4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAA74D9276D54770F273CC1A /* Pods-IBAnimatableMaterialApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBAnimatableMaterialApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-IBAnimatableMaterialApp/Pods-IBAnimatableMaterialApp.release.xcconfig"; sourceTree = "<group>"; };
+		FB3026755E5171F9BCB8FAF3 /* Pods_IBAnimatableMaterial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IBAnimatableMaterial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,17 +143,88 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F063812EEDF15E945BCDE03 /* Pods_IBAnimatable_Material.framework in Frameworks */,
+				ED0EF34F8A486385EA8D0EB4 /* Pods_IBAnimatableMaterialApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E953D8A01D3E278700647D4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DF0F761DE900B1BB96AE2BC /* Pods_IBAnimatableMaterial.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E953D8AA1D3E278700647D4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E953D8AE1D3E278700647D4D /* IBAnimatableMaterial.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE77A4241D3F25E400EF8651 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				AE49485B1D3FB44300A2DC24 /* AnimatableFlatButton.swift */,
+				AE49487F1D3FB57300A2DC24 /* AnimatableMaterialFabButton.swift */,
+				AE49485C1D3FB44300A2DC24 /* AnimatableMaterialButton.swift */,
+				AE49485E1D3FB44300A2DC24 /* AnimatableMaterialIconButton.swift */,
+				AE49485F1D3FB44300A2DC24 /* AnimatableRaisedButton.swift */,
+			);
+			name = Buttons;
+			sourceTree = "<group>";
+		};
+		AE77A4251D3F260600EF8651 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AE4948771D3FB49200A2DC24 /* AnimatableMaterialMenuView.swift */,
+				AE4948651D3FB45D00A2DC24 /* AnimatableMaterialCardView.swift */,
+				AE4948661D3FB45D00A2DC24 /* AnimatableMaterialControlView.swift */,
+				AE4948671D3FB45D00A2DC24 /* AnimatableMaterialImageCardView.swift */,
+				AE4948681D3FB45D00A2DC24 /* AnimatableMaterialPulseView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		AE77A4261D3F261600EF8651 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				AE49486F1D3FB46F00A2DC24 /* AnimatableMaterialCollectionViewCell.swift */,
+				AE4948701D3FB46F00A2DC24 /* AnimatableMaterialTableViewCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		AE77A4271D3F261E00EF8651 /* Text Elements */ = {
+			isa = PBXGroup;
+			children = (
+				AE4948731D3FB48A00A2DC24 /* AnimatableMaterialLabel.swift */,
+				AE4948741D3FB48A00A2DC24 /* AnimatableMaterialTextField.swift */,
+				AE49487D1D3FB53300A2DC24 /* AnimatableMaterialErrorTextField.swift */,
+				AE4948691D3FB45D00A2DC24 /* AnimatableMaterialTextView.swift */,
+			);
+			name = "Text Elements";
+			sourceTree = "<group>";
+		};
+		AE77A4281D3F264500EF8651 /* Bars */ = {
+			isa = PBXGroup;
+			children = (
+				AE4948791D3FB4A300A2DC24 /* AnimatableMaterialNavBar.swift */,
+				AE49487A1D3FB4A300A2DC24 /* AnimatableMaterialSearchBar.swift */,
+			);
+			name = Bars;
+			sourceTree = "<group>";
+		};
 		AEFC55CE1D32212D00D9EC01 = {
 			isa = PBXGroup;
 			children = (
-				AEFC55D91D32212D00D9EC01 /* IBAnimatable-Material */,
+				E953D8A51D3E278700647D4D /* IBAnimatableMaterial */,
+				AEFC55D91D32212D00D9EC01 /* IBAnimatableMaterialApp */,
+				E953D8B31D3E278700647D4D /* IBAnimatableMaterialTests */,
 				AEFC55D81D32212D00D9EC01 /* Products */,
 				F4B99CCE2A7750DCF62D3E4D /* Pods */,
 				DDAAB3167319EE0B043AA278 /* Frameworks */,
@@ -111,64 +234,40 @@
 		AEFC55D81D32212D00D9EC01 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AEFC55D71D32212D00D9EC01 /* IBAnimatable-Material.app */,
+				AEFC55D71D32212D00D9EC01 /* IBAnimatableMaterialApp.app */,
+				E953D8A41D3E278700647D4D /* IBAnimatableMaterial.framework */,
+				E953D8AD1D3E278700647D4D /* IBAnimatableMaterialTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AEFC55D91D32212D00D9EC01 /* IBAnimatable-Material */ = {
+		AEFC55D91D32212D00D9EC01 /* IBAnimatableMaterialApp */ = {
 			isa = PBXGroup;
 			children = (
-				AEFC55DA1D32212D00D9EC01 /* AppDelegate.swift */,
-				AEFC55DC1D32212D00D9EC01 /* ViewController.swift */,
-				E92283451D33C59D0049DE28 /* MainTableView.swift */,
+				E92283641D33CA870049DE28 /* Code */,
 				E92283631D33CA660049DE28 /* Storyboard */,
-				E92283621D33CA620049DE28 /* Code */,
-				AEFC55DE1D32212D00D9EC01 /* Main.storyboard */,
 				AEFC55E11D32212D00D9EC01 /* Assets.xcassets */,
-				AEFC55E31D32212D00D9EC01 /* LaunchScreen.storyboard */,
 				AEFC55E61D32212D00D9EC01 /* Info.plist */,
 			);
-			path = "IBAnimatable-Material";
+			path = IBAnimatableMaterialApp;
 			sourceTree = "<group>";
 		};
 		DDAAB3167319EE0B043AA278 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				392544B9DD945B6E07C5EFA3 /* Pods_IBAnimatable_Material.framework */,
+				AE77A42B1D3F2D6900EF8651 /* Material.framework */,
+				AE77A4291D3F2D6500EF8651 /* IBAnimatable.framework */,
+				FB3026755E5171F9BCB8FAF3 /* Pods_IBAnimatableMaterial.framework */,
+				902930B75F76D17D0DFFF667 /* Pods_IBAnimatableMaterialApp.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E92283621D33CA620049DE28 /* Code */ = {
-			isa = PBXGroup;
-			children = (
-				5E77989D1D3EF86F00D693BB /* AnimatableMaterialButton.swift */,
-				AEFC55EC1D32416E00D9EC01 /* AnimatableRaisedButton.swift */,
-				5E11C6521D358A8C00318B7C /* AnimatableFlatButton.swift */,
-				5E77989F1D3EFE9100D693BB /* AnimatableMaterialIconButton.swift */,
-				5E89530D1D3677BD00E54575 /* AnimatableMaterialFabButton.swift */,
-				E92283601D33CA4A0049DE28 /* AnimatableMaterialTableViewCell.swift */,
-				E92283591D33C95D0049DE28 /* AnimatableMaterialTextField.swift */,
-				5E7798891D3DBC5500D693BB /* AnimatableMaterialErrorTextField .swift */,
-				5E77988B1D3DBECB00D693BB /* AnimatableMaterialTextView.swift */,
-				5E77988F1D3DC87A00D693BB /* AnimatableMaterialLabel.swift */,
-				E922835E1D33C9930049DE28 /* AnimatableMaterialNavBar.swift */,
-				5E8953161D36853A00E54575 /* AnimatableMaterialCardView.swift */,
-				5E7798811D3C52E300D693BB /* AnimatableMaterialImageCardView .swift */,
-				5E7798851D3C652900D693BB /* AnimatableMaterialControlView.swift */,
-				5E7798911D3DCE0200D693BB /* AnimatableMaterialSearchBar.swift */,
-				5E7798931D3EED9400D693BB /* AnimatableMaterialCollectionViewCell.swift */,
-				5E77989B1D3EF7A700D693BB /* AnimatableMaterialMenuView.swift */,
-				5E7798A11D3F06EB00D693BB /* AnimatableMaterialPulseView.swift */,
-			);
-			name = Code;
 			sourceTree = "<group>";
 		};
 		E92283631D33CA660049DE28 /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
-				E92283641D33CA870049DE28 /* Example View Controller Code */,
+				AEFC55DE1D32212D00D9EC01 /* Main.storyboard */,
+				AEFC55E31D32212D00D9EC01 /* LaunchScreen.storyboard */,
 				E92283651D33CAA90049DE28 /* AnimatableMaterialButtons.storyboard */,
 				E92283581D33C95D0049DE28 /* AnimatableMaterialTextField.storyboard */,
 				5E89531C1D368F1F00E54575 /* AnimatableMaterialCardView.storyboard */,
@@ -177,9 +276,11 @@
 			name = Storyboard;
 			sourceTree = "<group>";
 		};
-		E92283641D33CA870049DE28 /* Example View Controller Code */ = {
+		E92283641D33CA870049DE28 /* Code */ = {
 			isa = PBXGroup;
 			children = (
+				AEFC55DA1D32212D00D9EC01 /* AppDelegate.swift */,
+				E92283451D33C59D0049DE28 /* MainTableView.swift */,
 				E922835A1D33C95D0049DE28 /* AnimatableMaterialTextFieldViewController.swift */,
 				5E77988D1D3DC25D00D693BB /* AnimatableMaterialErrorTextFieldAndTextViewViewController.swift */,
 				5E8953181D3689C700E54575 /* AnimatableMaterialCardViewController.swift */,
@@ -187,40 +288,117 @@
 				5E7798871D3C65DA00D693BB /* AnimatableMaterialControlViewController.swift */,
 				5E7798991D3EF02A00D693BB /* AnimatableMaterialCollectionViewCellViewController.swift */,
 			);
-			name = "Example View Controller Code";
+			name = Code;
+			sourceTree = "<group>";
+		};
+		E953D8A51D3E278700647D4D /* IBAnimatableMaterial */ = {
+			isa = PBXGroup;
+			children = (
+				AE77A4241D3F25E400EF8651 /* Buttons */,
+				AE77A4251D3F260600EF8651 /* Views */,
+				AE77A4261D3F261600EF8651 /* Cells */,
+				AE77A4271D3F261E00EF8651 /* Text Elements */,
+				AE77A4281D3F264500EF8651 /* Bars */,
+				E953D8A61D3E278700647D4D /* IBAnimatableMaterial.h */,
+				E953D8A81D3E278700647D4D /* Info.plist */,
+			);
+			path = IBAnimatableMaterial;
+			sourceTree = "<group>";
+		};
+		E953D8B31D3E278700647D4D /* IBAnimatableMaterialTests */ = {
+			isa = PBXGroup;
+			children = (
+				E953D8B41D3E278700647D4D /* IBAnimatableMaterialTests.swift */,
+				E953D8B61D3E278700647D4D /* Info.plist */,
+			);
+			path = IBAnimatableMaterialTests;
 			sourceTree = "<group>";
 		};
 		F4B99CCE2A7750DCF62D3E4D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E34E04F07CECCACE6C95A3DD /* Pods-IBAnimatable-Material.debug.xcconfig */,
-				751679D2A4128C8DB78EB63F /* Pods-IBAnimatable-Material.release.xcconfig */,
+				846C1357CC810BF3298F1831 /* Pods-IBAnimatableMaterial.debug.xcconfig */,
+				69CD4C2929274C9999D253DF /* Pods-IBAnimatableMaterial.release.xcconfig */,
+				CDC59B09A525FA2165BBC1FD /* Pods-IBAnimatableMaterialApp.debug.xcconfig */,
+				EAA74D9276D54770F273CC1A /* Pods-IBAnimatableMaterialApp.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		E953D8A11D3E278700647D4D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E953D8A71D3E278700647D4D /* IBAnimatableMaterial.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		AEFC55D61D32212D00D9EC01 /* IBAnimatable-Material */ = {
+		AEFC55D61D32212D00D9EC01 /* IBAnimatableMaterialApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AEFC55E91D32212D00D9EC01 /* Build configuration list for PBXNativeTarget "IBAnimatable-Material" */;
+			buildConfigurationList = AEFC55E91D32212D00D9EC01 /* Build configuration list for PBXNativeTarget "IBAnimatableMaterialApp" */;
 			buildPhases = (
-				3604BC4A6028F38A1FACC4F6 /* [CP] Check Pods Manifest.lock */,
+				4D16F8A88C0B49638A037990 /* [CP] Check Pods Manifest.lock */,
 				AEFC55D31D32212D00D9EC01 /* Sources */,
 				AEFC55D41D32212D00D9EC01 /* Frameworks */,
 				AEFC55D51D32212D00D9EC01 /* Resources */,
 				ADC2D0BCB09A6631A158C0D1 /* [CP] Embed Pods Frameworks */,
 				9DA5F7826009CCA8E9B834F5 /* [CP] Copy Pods Resources */,
+				E953D8C01D3E278700647D4D /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE4948561D3FAE8600A2DC24 /* PBXTargetDependency */,
+			);
+			name = IBAnimatableMaterialApp;
+			productName = "IBAnimatable-Material";
+			productReference = AEFC55D71D32212D00D9EC01 /* IBAnimatableMaterialApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E953D8A31D3E278700647D4D /* IBAnimatableMaterial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E953D8BF1D3E278700647D4D /* Build configuration list for PBXNativeTarget "IBAnimatableMaterial" */;
+			buildPhases = (
+				1670A3B3F38D14CE76A88B52 /* [CP] Check Pods Manifest.lock */,
+				E953D89F1D3E278700647D4D /* Sources */,
+				E953D8A01D3E278700647D4D /* Frameworks */,
+				E953D8A11D3E278700647D4D /* Headers */,
+				E953D8A21D3E278700647D4D /* Resources */,
+				F35A51C2151E8265CFE31FA7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "IBAnimatable-Material";
-			productName = "IBAnimatable-Material";
-			productReference = AEFC55D71D32212D00D9EC01 /* IBAnimatable-Material.app */;
-			productType = "com.apple.product-type.application";
+			name = IBAnimatableMaterial;
+			productName = IBAnimatableMaterial;
+			productReference = E953D8A41D3E278700647D4D /* IBAnimatableMaterial.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E953D8AC1D3E278700647D4D /* IBAnimatableMaterialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E953D8C11D3E278700647D4D /* Build configuration list for PBXNativeTarget "IBAnimatableMaterialTests" */;
+			buildPhases = (
+				E953D8A91D3E278700647D4D /* Sources */,
+				E953D8AA1D3E278700647D4D /* Frameworks */,
+				E953D8AB1D3E278700647D4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E953D8B01D3E278700647D4D /* PBXTargetDependency */,
+				E953D8B21D3E278700647D4D /* PBXTargetDependency */,
+			);
+			name = IBAnimatableMaterialTests;
+			productName = IBAnimatableMaterialTests;
+			productReference = E953D8AD1D3E278700647D4D /* IBAnimatableMaterialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -234,6 +412,13 @@
 				TargetAttributes = {
 					AEFC55D61D32212D00D9EC01 = {
 						CreatedOnToolsVersion = 7.3.1;
+					};
+					E953D8A31D3E278700647D4D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					E953D8AC1D3E278700647D4D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = AEFC55D61D32212D00D9EC01;
 					};
 				};
 			};
@@ -250,7 +435,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AEFC55D61D32212D00D9EC01 /* IBAnimatable-Material */,
+				AEFC55D61D32212D00D9EC01 /* IBAnimatableMaterialApp */,
+				E953D8A31D3E278700647D4D /* IBAnimatableMaterial */,
+				E953D8AC1D3E278700647D4D /* IBAnimatableMaterialTests */,
 			);
 		};
 /* End PBXProject section */
@@ -260,20 +447,49 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE4948831D3FB7A700A2DC24 /* Main.storyboard in Resources */,
+				AE4948841D3FB7A700A2DC24 /* LaunchScreen.storyboard in Resources */,
 				E92283661D33CAA90049DE28 /* AnimatableMaterialButtons.storyboard in Resources */,
-				AEFC55E51D32212D00D9EC01 /* LaunchScreen.storyboard in Resources */,
 				AEFC55E21D32212D00D9EC01 /* Assets.xcassets in Resources */,
 				5E7798961D3EEF6300D693BB /* AnimatableMaterialCollectionViewCellViewController.storyboard in Resources */,
-				AEFC55E01D32212D00D9EC01 /* Main.storyboard in Resources */,
 				E922835B1D33C95D0049DE28 /* AnimatableMaterialTextField.storyboard in Resources */,
 				5E89531D1D368F1F00E54575 /* AnimatableMaterialCardView.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E953D8A21D3E278700647D4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E953D8AB1D3E278700647D4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3604BC4A6028F38A1FACC4F6 /* [CP] Check Pods Manifest.lock */ = {
+		1670A3B3F38D14CE76A88B52 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4D16F8A88C0B49638A037990 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -300,7 +516,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IBAnimatable-Material/Pods-IBAnimatable-Material-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IBAnimatableMaterialApp/Pods-IBAnimatableMaterialApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		ADC2D0BCB09A6631A158C0D1 /* [CP] Embed Pods Frameworks */ = {
@@ -315,7 +531,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IBAnimatable-Material/Pods-IBAnimatable-Material-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IBAnimatableMaterialApp/Pods-IBAnimatableMaterialApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F35A51C2151E8265CFE31FA7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IBAnimatableMaterial/Pods-IBAnimatableMaterial-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -325,37 +556,69 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E92283611D33CA4A0049DE28 /* AnimatableMaterialTableViewCell.swift in Sources */,
-				AEFC55DD1D32212D00D9EC01 /* ViewController.swift in Sources */,
-				5E8953171D36853A00E54575 /* AnimatableMaterialCardView.swift in Sources */,
 				5E7798841D3C560D00D693BB /* AnimatableMaterialImageCardViewController.swift in Sources */,
 				5E8953191D3689C700E54575 /* AnimatableMaterialCardViewController.swift in Sources */,
 				5E7798881D3C65DA00D693BB /* AnimatableMaterialControlViewController.swift in Sources */,
-				5E7798821D3C52E300D693BB /* AnimatableMaterialImageCardView .swift in Sources */,
-				5E11C6531D358A8C00318B7C /* AnimatableFlatButton.swift in Sources */,
 				5E77988E1D3DC25D00D693BB /* AnimatableMaterialErrorTextFieldAndTextViewViewController.swift in Sources */,
-				5E7798901D3DC87A00D693BB /* AnimatableMaterialLabel.swift in Sources */,
-				5E77988C1D3DBECB00D693BB /* AnimatableMaterialTextView.swift in Sources */,
-				E922835F1D33C9930049DE28 /* AnimatableMaterialNavBar.swift in Sources */,
-				5E89530E1D3677BD00E54575 /* AnimatableMaterialFabButton.swift in Sources */,
-				AEFC55ED1D32416E00D9EC01 /* AnimatableRaisedButton.swift in Sources */,
-				5E7798A01D3EFE9100D693BB /* AnimatableMaterialIconButton.swift in Sources */,
-				5E77989E1D3EF86F00D693BB /* AnimatableMaterialButton.swift in Sources */,
-				E92283461D33C59D0049DE28 /* MainTableView.swift in Sources */,
-				E922835D1D33C95D0049DE28 /* AnimatableMaterialTextFieldViewController.swift in Sources */,
-				5E77989C1D3EF7A700D693BB /* AnimatableMaterialMenuView.swift in Sources */,
-				5E77988A1D3DBC5500D693BB /* AnimatableMaterialErrorTextField .swift in Sources */,
+				AE49485A1D3FAEE800A2DC24 /* MainTableView.swift in Sources */,
+				AE4948591D3FAEE800A2DC24 /* AnimatableMaterialTextFieldViewController.swift in Sources */,
 				5E77989A1D3EF02A00D693BB /* AnimatableMaterialCollectionViewCellViewController.swift in Sources */,
-				5E7798941D3EED9400D693BB /* AnimatableMaterialCollectionViewCell.swift in Sources */,
-				5E7798A21D3F06EB00D693BB /* AnimatableMaterialPulseView.swift in Sources */,
-				E922835C1D33C95D0049DE28 /* AnimatableMaterialTextField.swift in Sources */,
-				AEFC55DB1D32212D00D9EC01 /* AppDelegate.swift in Sources */,
-				5E7798861D3C652900D693BB /* AnimatableMaterialControlView.swift in Sources */,
-				5E7798921D3DCE0200D693BB /* AnimatableMaterialSearchBar.swift in Sources */,
+				AE4948581D3FAEE800A2DC24 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E953D89F1D3E278700647D4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE49487B1D3FB4A300A2DC24 /* AnimatableMaterialNavBar.swift in Sources */,
+				AE4948711D3FB46F00A2DC24 /* AnimatableMaterialCollectionViewCell.swift in Sources */,
+				AE4948611D3FB44300A2DC24 /* AnimatableMaterialButton.swift in Sources */,
+				AE4948761D3FB48A00A2DC24 /* AnimatableMaterialTextField.swift in Sources */,
+				AE49487E1D3FB53300A2DC24 /* AnimatableMaterialErrorTextField.swift in Sources */,
+				AE4948751D3FB48A00A2DC24 /* AnimatableMaterialLabel.swift in Sources */,
+				AE49486A1D3FB45D00A2DC24 /* AnimatableMaterialCardView.swift in Sources */,
+				AE49486B1D3FB45D00A2DC24 /* AnimatableMaterialControlView.swift in Sources */,
+				AE49486D1D3FB45D00A2DC24 /* AnimatableMaterialPulseView.swift in Sources */,
+				AE4948801D3FB57300A2DC24 /* AnimatableMaterialFabButton.swift in Sources */,
+				AE4948601D3FB44300A2DC24 /* AnimatableFlatButton.swift in Sources */,
+				AE49487C1D3FB4A300A2DC24 /* AnimatableMaterialSearchBar.swift in Sources */,
+				AE49486C1D3FB45D00A2DC24 /* AnimatableMaterialImageCardView.swift in Sources */,
+				AE4948721D3FB46F00A2DC24 /* AnimatableMaterialTableViewCell.swift in Sources */,
+				AE4948631D3FB44300A2DC24 /* AnimatableMaterialIconButton.swift in Sources */,
+				AE49486E1D3FB45D00A2DC24 /* AnimatableMaterialTextView.swift in Sources */,
+				AE4948781D3FB49200A2DC24 /* AnimatableMaterialMenuView.swift in Sources */,
+				AE4948641D3FB44300A2DC24 /* AnimatableRaisedButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E953D8A91D3E278700647D4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E953D8B51D3E278700647D4D /* IBAnimatableMaterialTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE4948561D3FAE8600A2DC24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E953D8A31D3E278700647D4D /* IBAnimatableMaterial */;
+			targetProxy = AE4948551D3FAE8600A2DC24 /* PBXContainerItemProxy */;
+		};
+		E953D8B01D3E278700647D4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E953D8A31D3E278700647D4D /* IBAnimatableMaterial */;
+			targetProxy = E953D8AF1D3E278700647D4D /* PBXContainerItemProxy */;
+		};
+		E953D8B21D3E278700647D4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEFC55D61D32212D00D9EC01 /* IBAnimatableMaterialApp */;
+			targetProxy = E953D8B11D3E278700647D4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		AEFC55DE1D32212D00D9EC01 /* Main.storyboard */ = {
@@ -462,25 +725,94 @@
 		};
 		AEFC55EA1D32212D00D9EC01 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E34E04F07CECCACE6C95A3DD /* Pods-IBAnimatable-Material.debug.xcconfig */;
+			baseConfigurationReference = CDC59B09A525FA2165BBC1FD /* Pods-IBAnimatableMaterialApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "IBAnimatable-Material/Info.plist";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = IBAnimatableMaterialApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "IBAnimatable.IBAnimatable-Material";
+				PRODUCT_BUNDLE_IDENTIFIER = IBAnimatable.IBAnimatableMaterialApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		AEFC55EB1D32212D00D9EC01 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 751679D2A4128C8DB78EB63F /* Pods-IBAnimatable-Material.release.xcconfig */;
+			baseConfigurationReference = EAA74D9276D54770F273CC1A /* Pods-IBAnimatableMaterialApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "IBAnimatable-Material/Info.plist";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = IBAnimatableMaterialApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "IBAnimatable.IBAnimatable-Material";
+				PRODUCT_BUNDLE_IDENTIFIER = IBAnimatable.IBAnimatableMaterialApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E953D8BB1D3E278700647D4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 846C1357CC810BF3298F1831 /* Pods-IBAnimatableMaterial.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = IBAnimatableMaterial/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IBAnimatable.IBAnimatableMaterial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E953D8BC1D3E278700647D4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69CD4C2929274C9999D253DF /* Pods-IBAnimatableMaterial.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = IBAnimatableMaterial/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IBAnimatable.IBAnimatableMaterial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E953D8BD1D3E278700647D4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IBAnimatableMaterialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IBAnimatable.IBAnimatableMaterialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IBAnimatable-Material.app/IBAnimatable-Material";
+			};
+			name = Debug;
+		};
+		E953D8BE1D3E278700647D4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IBAnimatableMaterialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IBAnimatable.IBAnimatableMaterialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IBAnimatable-Material.app/IBAnimatable-Material";
 			};
 			name = Release;
 		};
@@ -496,11 +828,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AEFC55E91D32212D00D9EC01 /* Build configuration list for PBXNativeTarget "IBAnimatable-Material" */ = {
+		AEFC55E91D32212D00D9EC01 /* Build configuration list for PBXNativeTarget "IBAnimatableMaterialApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AEFC55EA1D32212D00D9EC01 /* Debug */,
 				AEFC55EB1D32212D00D9EC01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E953D8BF1D3E278700647D4D /* Build configuration list for PBXNativeTarget "IBAnimatableMaterial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E953D8BB1D3E278700647D4D /* Debug */,
+				E953D8BC1D3E278700647D4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E953D8C11D3E278700647D4D /* Build configuration list for PBXNativeTarget "IBAnimatableMaterialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E953D8BD1D3E278700647D4D /* Debug */,
+				E953D8BE1D3E278700647D4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

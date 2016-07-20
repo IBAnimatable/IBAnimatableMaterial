@@ -1,8 +1,8 @@
 //
-//  AnimatableMaterialMenuView.swift
+//  AnimatableMaterialSearchBar.swift
 //  IBAnimatable-Material
 //
-//  Created by George Kye on 2016-07-19.
+//  Created by George Kye on 2016-07-18.
 //  Copyright © 2016 IBAnimatable. All rights reserved.
 //
 
@@ -11,7 +11,7 @@ import IBAnimatable
 import Material
 
 @IBDesignable
-public class AnimatableMaterialMenuView: MenuView, FillDesignable, BorderDesignable, RotationDesignable, BlurDesignable, TintDesignable, GradientDesignable, MaskDesignable, Animatable {
+public class AnimatableMaterialSearchBar: SearchBar, CornerDesignable, FillDesignable, BorderDesignable, RotationDesignable, BlurDesignable, TintDesignable, GradientDesignable, MaskDesignable, Animatable {
   
   // MARK: - FillDesignable
   @IBInspectable public var fillColor: UIColor? {
@@ -39,6 +39,8 @@ public class AnimatableMaterialMenuView: MenuView, FillDesignable, BorderDesigna
     }
   }
   
+  
+  
   // MARK: - RotationDesignable
   @IBInspectable public var rotate: CGFloat = CGFloat.NaN {
     didSet {
@@ -46,10 +48,22 @@ public class AnimatableMaterialMenuView: MenuView, FillDesignable, BorderDesigna
     }
   }
   
-  
   // MARK: - BlurDesignable
-  @IBInspectable public var blurEffectStyle: String?
-  @IBInspectable public var blurOpacity: CGFloat = CGFloat.NaN
+  @IBInspectable public var blurEffectStyle: String? {
+    didSet {
+      configBlurEffectStyle()
+    }
+  }
+  @IBInspectable public var vibrancyEffectStyle: String? {
+    didSet {
+      configBlurEffectStyle()
+    }
+  }
+  @IBInspectable public var blurOpacity: CGFloat = CGFloat.NaN {
+    didSet {
+      configBlurEffectStyle()
+    }
+  }
   
   // MARK: - TintDesignable
   @IBInspectable public var tintOpacity: CGFloat = CGFloat.NaN
@@ -80,8 +94,8 @@ public class AnimatableMaterialMenuView: MenuView, FillDesignable, BorderDesigna
   @IBInspectable public var velocity: CGFloat = CGFloat.NaN
   @IBInspectable public var force: CGFloat = CGFloat.NaN
   @IBInspectable public var repeatCount: Float = Float.NaN
-//  @IBInspectable public var x: CGFloat = CGFloat.NaN
-//  @IBInspectable public var y: CGFloat = CGFloat.NaN
+  //  @IBInspectable public var x: CGFloat = CGFloat.NaN
+  //  @IBInspectable public var y: CGFloat = CGFloat.NaN
   
   // MARK: - Lifecycle
   public override func prepareForInterfaceBuilder() {
@@ -104,7 +118,6 @@ public class AnimatableMaterialMenuView: MenuView, FillDesignable, BorderDesigna
   private func configInspectableProperties() {
     configAnimatableProperties()
     configTintedColor()
-    configBlurEffectStyle()
   }
   
   private func configAfterLayoutSubviews() {

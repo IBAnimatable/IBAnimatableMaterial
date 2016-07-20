@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="FrD-K8-X8m">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="FrD-K8-X8m">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -8,18 +8,18 @@
         <!--Component-->
         <scene sceneID="N5O-Cp-wc9">
             <objects>
-                <tableViewController title="Component" id="KnH-JO-JQk" customClass="MainTableView" customModule="IBAnimatable_Material" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="Component" id="KnH-JO-JQk" customClass="MainTableView" customModule="IBAnimatableMaterialApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="80" sectionHeaderHeight="28" sectionFooterHeight="28" id="Wfu-is-OPO" customClass="AnimatableTableView" customModule="IBAnimatable">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="sectionIndexBackgroundColor" red="0.70980392160000005" green="0.4549019608" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="materialCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="materialCell" rowHeight="80" id="ZPz-hN-MOG" customClass="AnimatableMaterialTableViewCell" customModule="IBAnimatable_Material">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="materialCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="materialCell" rowHeight="80" id="ZPz-hN-MOG" customClass="AnimatableMaterialTableViewCell" customModule="IBAnimatableMaterial">
                                 <rect key="frame" x="0.0" y="92" width="375" height="80"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ZPz-hN-MOG" id="sEZ-dm-9i8">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="79"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="79.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <userDefinedRuntimeAttributes>
@@ -70,7 +70,7 @@
                 <viewControllerPlaceholder storyboardName="AnimatableMaterialButtons" referencedIdentifier="AnimatableMaterialButtons" id="vMB-7p-p32" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="05L-Jn-cfB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1171" y="753"/>
+            <point key="canvasLocation" x="1139" y="735"/>
         </scene>
         <!--AnimatableMaterialTextField-->
         <scene sceneID="qnz-ro-sfa">
@@ -78,7 +78,7 @@
                 <viewControllerPlaceholder storyboardName="AnimatableMaterialTextField" referencedIdentifier="AnimatableMaterialTextField" id="Ufr-MZ-5YW" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Oh-9L-LDC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1291" y="797"/>
+            <point key="canvasLocation" x="1139" y="797"/>
         </scene>
         <!--AnimatableMaterialCardView-->
         <scene sceneID="NGN-HP-lnE">
@@ -86,7 +86,7 @@
                 <viewControllerPlaceholder storyboardName="AnimatableMaterialCardView" referencedIdentifier="AnimatableMaterialCardView" id="J3P-YW-cco" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gVl-Ju-j6E" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1298.5" y="949"/>
+            <point key="canvasLocation" x="1144.5" y="919"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="QjK-zX-rdV">
@@ -94,7 +94,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="FrD-K8-X8m" customClass="NavigationController" customModule="Material" sceneMemberID="viewController">
                     <toolbarItems/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="v9r-Hy-DH8" customClass="AnimatableMaterialNavBar" customModule="IBAnimatable_Material">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="v9r-Hy-DH8" customClass="AnimatableMaterialNavBar" customModule="IBAnimatableMaterial">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" red="0.16714784499999999" green="0.1965968609" blue="0.28792965409999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -119,7 +119,7 @@
                 <viewControllerPlaceholder storyboardName="AnimatableMaterialCardView" referencedIdentifier="AnimatableMaterialImageCardView" id="vk1-TQ-yH2" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f4Z-Qh-ZiD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1317" y="986"/>
+            <point key="canvasLocation" x="1163" y="982"/>
         </scene>
         <!--AnimatableMaterialControlView-->
         <scene sceneID="gve-dm-qEI">
@@ -127,7 +127,7 @@
                 <viewControllerPlaceholder storyboardName="AnimatableMaterialCardView" referencedIdentifier="AnimatableMaterialControlView" id="CGU-cR-wWN" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Q8-tK-weH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1306.5" y="1022"/>
+            <point key="canvasLocation" x="1152.5" y="1050"/>
         </scene>
         <!--AnimatableMaterialCollectionViewCellViewController-->
         <scene sceneID="GrL-5n-hYR">
@@ -135,7 +135,7 @@
                 <viewControllerPlaceholder storyboardName="AnimatableMaterialCollectionViewCellViewController" referencedIdentifier="AnimatableMaterialCollectionViewCellViewController" id="2U1-PL-a82" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f8y-Uk-BWI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1327" y="1142"/>
+            <point key="canvasLocation" x="1217" y="1118"/>
         </scene>
         <!--AnimatableMaterialErrorTextField-->
         <scene sceneID="C0b-Pt-e8d">
@@ -143,7 +143,7 @@
                 <viewControllerPlaceholder storyboardName="AnimatableMaterialTextField" referencedIdentifier="AnimatableMaterialErrorTextField" id="hCc-4I-5pX" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XHI-Wy-Q62" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1306" y="840"/>
+            <point key="canvasLocation" x="1154" y="860"/>
         </scene>
     </scenes>
 </document>

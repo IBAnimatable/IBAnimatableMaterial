@@ -8,6 +8,7 @@
 
 import UIKit
 import Material
+import IBAnimatableMaterial
 
 class AnimatableMaterialCollectionViewCellViewController: UICollectionViewController, UICollectionViewDelegateFlowLayout {
   
@@ -83,7 +84,7 @@ class AnimatableMaterialCollectionViewCellViewController: UICollectionViewContro
   }
   
   override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-    let cell = collectionView.dequeueReusableCellWithReuseIdentifier("cell", forIndexPath: indexPath) as! DemoCollectionViewCell
+    let cell = collectionView.dequeueReusableCellWithReuseIdentifier("cell", forIndexPath: indexPath) as! AnimatableMaterialCollectionViewCell
     cell.startColor = UIColor.randomColor()
     cell.endColor = UIColor.randomColor()
     
@@ -104,11 +105,6 @@ class AnimatableMaterialCollectionViewCellViewController: UICollectionViewContro
   
   
 }
-
-
-class DemoCollectionViewCell: AnimatableMaterialCollectionViewCell{
-}
-
 
 //MARK: Generate random color
 extension CGFloat {

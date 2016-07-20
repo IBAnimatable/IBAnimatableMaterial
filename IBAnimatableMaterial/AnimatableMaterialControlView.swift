@@ -1,5 +1,5 @@
 //
-//  AnimatableMaterialImageCardView .swift
+//  AnimatableMaterialControlView.swift
 //  IBAnimatable-Material
 //
 //  Created by George Kye on 2016-07-17.
@@ -11,7 +11,7 @@ import IBAnimatable
 import Material
 
 @IBDesignable
-public class AnimatableMaterialImageCardView: ImageCardView, CornerDesignable, FillDesignable, BorderDesignable, RotationDesignable, BlurDesignable, TintDesignable, GradientDesignable, MaskDesignable, Animatable {
+public class AnimatableMaterialControlView: ControlView, CornerDesignable, FillDesignable, BorderDesignable, RotationDesignable, BlurDesignable, TintDesignable, GradientDesignable, MaskDesignable, Animatable {
   
   // MARK: - FillDesignable
   @IBInspectable public var fillColor: UIColor? {
@@ -47,10 +47,22 @@ public class AnimatableMaterialImageCardView: ImageCardView, CornerDesignable, F
   }
   
   
-  
   // MARK: - BlurDesignable
-  @IBInspectable public var blurEffectStyle: String?
-  @IBInspectable public var blurOpacity: CGFloat = CGFloat.NaN
+  @IBInspectable public var blurEffectStyle: String? {
+    didSet {
+      configBlurEffectStyle()
+    }
+  }
+  @IBInspectable public var vibrancyEffectStyle: String? {
+    didSet {
+      configBlurEffectStyle()
+    }
+  }
+  @IBInspectable public var blurOpacity: CGFloat = CGFloat.NaN {
+    didSet {
+      configBlurEffectStyle()
+    }
+  }
   
   // MARK: - TintDesignable
   @IBInspectable public var tintOpacity: CGFloat = CGFloat.NaN
@@ -105,7 +117,6 @@ public class AnimatableMaterialImageCardView: ImageCardView, CornerDesignable, F
   private func configInspectableProperties() {
     configAnimatableProperties()
     configTintedColor()
-    configBlurEffectStyle()
   }
   
   private func configAfterLayoutSubviews() {

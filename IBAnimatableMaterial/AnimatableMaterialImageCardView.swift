@@ -1,8 +1,8 @@
 //
-//  AnimatableMaterialSearchBar.swift
+//  AnimatableMaterialImageCardView .swift
 //  IBAnimatable-Material
 //
-//  Created by George Kye on 2016-07-18.
+//  Created by George Kye on 2016-07-17.
 //  Copyright © 2016 IBAnimatable. All rights reserved.
 //
 
@@ -11,7 +11,7 @@ import IBAnimatable
 import Material
 
 @IBDesignable
-public class AnimatableMaterialSearchBar: SearchBar, CornerDesignable, FillDesignable, BorderDesignable, RotationDesignable, BlurDesignable, TintDesignable, GradientDesignable, MaskDesignable, Animatable {
+public class AnimatableMaterialImageCardView: ImageCardView, CornerDesignable, FillDesignable, BorderDesignable, RotationDesignable, BlurDesignable, TintDesignable, GradientDesignable, MaskDesignable, Animatable {
   
   // MARK: - FillDesignable
   @IBInspectable public var fillColor: UIColor? {
@@ -39,8 +39,6 @@ public class AnimatableMaterialSearchBar: SearchBar, CornerDesignable, FillDesig
     }
   }
   
-  
-  
   // MARK: - RotationDesignable
   @IBInspectable public var rotate: CGFloat = CGFloat.NaN {
     didSet {
@@ -51,8 +49,21 @@ public class AnimatableMaterialSearchBar: SearchBar, CornerDesignable, FillDesig
   
   
   // MARK: - BlurDesignable
-  @IBInspectable public var blurEffectStyle: String?
-  @IBInspectable public var blurOpacity: CGFloat = CGFloat.NaN
+  @IBInspectable public var blurEffectStyle: String? {
+    didSet {
+      configBlurEffectStyle()
+    }
+  }
+  @IBInspectable public var vibrancyEffectStyle: String? {
+    didSet {
+      configBlurEffectStyle()
+    }
+  }
+  @IBInspectable public var blurOpacity: CGFloat = CGFloat.NaN {
+    didSet {
+      configBlurEffectStyle()
+    }
+  }
   
   // MARK: - TintDesignable
   @IBInspectable public var tintOpacity: CGFloat = CGFloat.NaN
@@ -107,7 +118,6 @@ public class AnimatableMaterialSearchBar: SearchBar, CornerDesignable, FillDesig
   private func configInspectableProperties() {
     configAnimatableProperties()
     configTintedColor()
-    configBlurEffectStyle()
   }
   
   private func configAfterLayoutSubviews() {

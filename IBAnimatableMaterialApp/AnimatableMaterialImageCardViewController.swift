@@ -8,6 +8,7 @@
 
 import Foundation
 import UIKit
+import IBAnimatableMaterial
 import IBAnimatable
 import Material
 

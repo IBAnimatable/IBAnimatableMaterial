@@ -1,5 +1,5 @@
 //
-//  AnimatableMaterialPulseView.swift
+//  AnimatableMaterialMenuView.swift
 //  IBAnimatable-Material
 //
 //  Created by George Kye on 2016-07-19.
@@ -11,7 +11,7 @@ import IBAnimatable
 import Material
 
 @IBDesignable
-public class AnimatableMaterialPulseView: MaterialPulseView, FillDesignable, BorderDesignable, RotationDesignable, BlurDesignable, TintDesignable, GradientDesignable, MaskDesignable, Animatable {
+public class AnimatableMaterialMenuView: MenuView, FillDesignable, BorderDesignable, RotationDesignable, BlurDesignable, TintDesignable, GradientDesignable, MaskDesignable, Animatable {
   
   // MARK: - FillDesignable
   @IBInspectable public var fillColor: UIColor? {
@@ -48,8 +48,21 @@ public class AnimatableMaterialPulseView: MaterialPulseView, FillDesignable, Bor
   
   
   // MARK: - BlurDesignable
-  @IBInspectable public var blurEffectStyle: String?
-  @IBInspectable public var blurOpacity: CGFloat = CGFloat.NaN
+  @IBInspectable public var blurEffectStyle: String? {
+    didSet {
+      configBlurEffectStyle()
+    }
+  }
+  @IBInspectable public var vibrancyEffectStyle: String? {
+    didSet {
+      configBlurEffectStyle()
+    }
+  }
+  @IBInspectable public var blurOpacity: CGFloat = CGFloat.NaN {
+    didSet {
+      configBlurEffectStyle()
+    }
+  }
   
   // MARK: - TintDesignable
   @IBInspectable public var tintOpacity: CGFloat = CGFloat.NaN
@@ -80,8 +93,8 @@ public class AnimatableMaterialPulseView: MaterialPulseView, FillDesignable, Bor
   @IBInspectable public var velocity: CGFloat = CGFloat.NaN
   @IBInspectable public var force: CGFloat = CGFloat.NaN
   @IBInspectable public var repeatCount: Float = Float.NaN
-  //  @IBInspectable public var x: CGFloat = CGFloat.NaN
-  //  @IBInspectable public var y: CGFloat = CGFloat.NaN
+//  @IBInspectable public var x: CGFloat = CGFloat.NaN
+//  @IBInspectable public var y: CGFloat = CGFloat.NaN
   
   // MARK: - Lifecycle
   public override func prepareForInterfaceBuilder() {
@@ -104,7 +117,6 @@ public class AnimatableMaterialPulseView: MaterialPulseView, FillDesignable, Bor
   private func configInspectableProperties() {
     configAnimatableProperties()
     configTintedColor()
-    configBlurEffectStyle()
   }
   
   private func configAfterLayoutSubviews() {
