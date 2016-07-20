@@ -55,23 +55,29 @@
 		AE3CDCAA1D3FA644008CF8E9 /* AnimatableMaterialLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3CDCA91D3FA644008CF8E9 /* AnimatableMaterialLabel.swift */; };
 		AE3CDCAD1D3FA659008CF8E9 /* AnimatableMaterialNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3CDCAB1D3FA659008CF8E9 /* AnimatableMaterialNavBar.swift */; };
 		AE3CDCAE1D3FA659008CF8E9 /* AnimatableMaterialSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3CDCAC1D3FA659008CF8E9 /* AnimatableMaterialSearchBar.swift */; };
-		AEFC55DB1D32212D00D9EC01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFC55DA1D32212D00D9EC01 /* AppDelegate.swift */; };
+		AE4948571D3FAEC400A2DC24 /* IBAnimatableMaterial.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E953D8A41D3E278700647D4D /* IBAnimatableMaterial.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AE4948581D3FAEE800A2DC24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFC55DA1D32212D00D9EC01 /* AppDelegate.swift */; };
+		AE4948591D3FAEE800A2DC24 /* AnimatableMaterialTextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E922835A1D33C95D0049DE28 /* AnimatableMaterialTextFieldViewController.swift */; };
+		AE49485A1D3FAEE800A2DC24 /* MainTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92283451D33C59D0049DE28 /* MainTableView.swift */; };
 		AEFC55E01D32212D00D9EC01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEFC55DE1D32212D00D9EC01 /* Main.storyboard */; };
 		AEFC55E21D32212D00D9EC01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEFC55E11D32212D00D9EC01 /* Assets.xcassets */; };
 		AEFC55E51D32212D00D9EC01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEFC55E31D32212D00D9EC01 /* LaunchScreen.storyboard */; };
-		E92283461D33C59D0049DE28 /* MainTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92283451D33C59D0049DE28 /* MainTableView.swift */; };
 		E922835B1D33C95D0049DE28 /* AnimatableMaterialTextField.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E92283581D33C95D0049DE28 /* AnimatableMaterialTextField.storyboard */; };
-		E922835D1D33C95D0049DE28 /* AnimatableMaterialTextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E922835A1D33C95D0049DE28 /* AnimatableMaterialTextFieldViewController.swift */; };
 		E92283661D33CAA90049DE28 /* AnimatableMaterialButtons.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E92283651D33CAA90049DE28 /* AnimatableMaterialButtons.storyboard */; };
 		E953D8A71D3E278700647D4D /* IBAnimatableMaterial.h in Headers */ = {isa = PBXBuildFile; fileRef = E953D8A61D3E278700647D4D /* IBAnimatableMaterial.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E953D8AE1D3E278700647D4D /* IBAnimatableMaterial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E953D8A41D3E278700647D4D /* IBAnimatableMaterial.framework */; };
 		E953D8B51D3E278700647D4D /* IBAnimatableMaterialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E953D8B41D3E278700647D4D /* IBAnimatableMaterialTests.swift */; };
-		E953D8B91D3E278700647D4D /* IBAnimatableMaterial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E953D8A41D3E278700647D4D /* IBAnimatableMaterial.framework */; };
-		E953D8BA1D3E278700647D4D /* IBAnimatableMaterial.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E953D8A41D3E278700647D4D /* IBAnimatableMaterial.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		ED0EF34F8A486385EA8D0EB4 /* Pods_IBAnimatableMaterialApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 902930B75F76D17D0DFFF667 /* Pods_IBAnimatableMaterialApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		AE4948551D3FAE8600A2DC24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEFC55CF1D32212D00D9EC01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E953D8A31D3E278700647D4D;
+			remoteInfo = IBAnimatableMaterial;
+		};
 		E953D8AF1D3E278700647D4D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AEFC55CF1D32212D00D9EC01 /* Project object */;
@@ -86,13 +92,6 @@
 			remoteGlobalIDString = AEFC55D61D32212D00D9EC01;
 			remoteInfo = "IBAnimatable-Material";
 		};
-		E953D8B71D3E278700647D4D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AEFC55CF1D32212D00D9EC01 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E953D8A31D3E278700647D4D;
-			remoteInfo = IBAnimatableMaterial;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -102,7 +101,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				E953D8BA1D3E278700647D4D /* IBAnimatableMaterial.framework in Embed Frameworks */,
+				AE4948571D3FAEC400A2DC24 /* IBAnimatableMaterial.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -174,7 +173,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E953D8B91D3E278700647D4D /* IBAnimatableMaterial.framework in Frameworks */,
 				ED0EF34F8A486385EA8D0EB4 /* Pods_IBAnimatableMaterialApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,7 +332,7 @@
 				E953D8A81D3E278700647D4D /* Info.plist */,
 			);
 			path = IBAnimatableMaterial;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		E953D8B31D3E278700647D4D /* IBAnimatableMaterialTests */ = {
 			isa = PBXGroup;
@@ -385,7 +383,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				E953D8B81D3E278700647D4D /* PBXTargetDependency */,
+				AE4948561D3FAE8600A2DC24 /* PBXTargetDependency */,
 			);
 			name = IBAnimatableMaterialApp;
 			productName = "IBAnimatable-Material";
@@ -595,18 +593,15 @@
 				5E77988C1D3DBECB00D693BB /* AnimatableMaterialTextView.swift in Sources */,
 				5E7798A01D3EFE9100D693BB /* AnimatableMaterialIconButton.swift in Sources */,
 				5E77989E1D3EF86F00D693BB /* AnimatableMaterialButton.swift in Sources */,
-				E92283461D33C59D0049DE28 /* MainTableView.swift in Sources */,
-				E922835D1D33C95D0049DE28 /* AnimatableMaterialTextFieldViewController.swift in Sources */,
+				AE49485A1D3FAEE800A2DC24 /* MainTableView.swift in Sources */,
+				AE4948591D3FAEE800A2DC24 /* AnimatableMaterialTextFieldViewController.swift in Sources */,
 				5E77989C1D3EF7A700D693BB /* AnimatableMaterialMenuView.swift in Sources */,
 				5E77988A1D3DBC5500D693BB /* AnimatableMaterialErrorTextField .swift in Sources */,
 				5E77989A1D3EF02A00D693BB /* AnimatableMaterialCollectionViewCellViewController.swift in Sources */,
 				5E7798941D3EED9400D693BB /* AnimatableMaterialCollectionViewCell.swift in Sources */,
 				5E7798A21D3F06EB00D693BB /* AnimatableMaterialPulseView.swift in Sources */,
-				AEFC55DB1D32212D00D9EC01 /* AppDelegate.swift in Sources */,
+				AE4948581D3FAEE800A2DC24 /* AppDelegate.swift in Sources */,
 				5E7798921D3DCE0200D693BB /* AnimatableMaterialSearchBar.swift in Sources */,
-				E92283461D33C59D0049DE28 /* MainTableView.swift in Sources */,
-				E922835D1D33C95D0049DE28 /* AnimatableMaterialTextFieldViewController.swift in Sources */,
-				AEFC55DB1D32212D00D9EC01 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -659,6 +654,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		AE4948561D3FAE8600A2DC24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E953D8A31D3E278700647D4D /* IBAnimatableMaterial */;
+			targetProxy = AE4948551D3FAE8600A2DC24 /* PBXContainerItemProxy */;
+		};
 		E953D8B01D3E278700647D4D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E953D8A31D3E278700647D4D /* IBAnimatableMaterial */;
@@ -668,11 +668,6 @@
 			isa = PBXTargetDependency;
 			target = AEFC55D61D32212D00D9EC01 /* IBAnimatableMaterialApp */;
 			targetProxy = E953D8B11D3E278700647D4D /* PBXContainerItemProxy */;
-		};
-		E953D8B81D3E278700647D4D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E953D8A31D3E278700647D4D /* IBAnimatableMaterial */;
-			targetProxy = E953D8B71D3E278700647D4D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
