@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Animatable Material Card View Controller-->
@@ -111,8 +112,35 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VpD-RV-hPI" customClass="AnimatableMaterialPulseView" customModule="IBAnimatable_Material" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="286" width="414" height="200"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="startColor">
+                                        <color key="value" red="0.1819814891" green="0.69426733259999995" blue="0.53024792669999998" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="endColor">
+                                        <color key="value" red="0.70980392160000005" green="0.4549019608" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="pulseColor">
+                                        <color key="value" red="0.46666666670000001" green="0.74901960779999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ControlView" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HWN-f5-5gT">
+                                <rect key="frame" x="5" y="18" width="404" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PulseView" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vBm-5g-rZp">
+                                <rect key="frame" x="5" y="257" width="404" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EdD-a9-UFV" customClass="AnimatableMaterialControlView" customModule="IBAnimatable_Material" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
+                                <rect key="frame" x="0.0" y="47" width="414" height="98"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
@@ -123,9 +151,19 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="QzZ-eD-GXB" firstAttribute="top" secondItem="EdD-a9-UFV" secondAttribute="bottom" constant="536" id="2JD-Ft-X9a"/>
-                            <constraint firstItem="EdD-a9-UFV" firstAttribute="leading" secondItem="JtV-VX-coK" secondAttribute="leading" id="BVw-lw-Hi8"/>
-                            <constraint firstItem="EdD-a9-UFV" firstAttribute="top" secondItem="JtV-VX-coK" secondAttribute="top" id="CAg-8e-FuS"/>
+                            <constraint firstItem="EdD-a9-UFV" firstAttribute="leading" secondItem="VpD-RV-hPI" secondAttribute="leading" id="1Yp-yK-dYh"/>
+                            <constraint firstItem="HWN-f5-5gT" firstAttribute="top" secondItem="JtV-VX-coK" secondAttribute="topMargin" constant="18" id="4QP-zB-rB4"/>
+                            <constraint firstItem="VpD-RV-hPI" firstAttribute="top" secondItem="vBm-5g-rZp" secondAttribute="bottom" constant="8" symbolic="YES" id="6Of-MP-9fX"/>
+                            <constraint firstItem="EdD-a9-UFV" firstAttribute="leading" secondItem="JtV-VX-coK" secondAttribute="leading" id="6cY-1p-wVz"/>
+                            <constraint firstItem="EdD-a9-UFV" firstAttribute="top" secondItem="HWN-f5-5gT" secondAttribute="bottom" constant="8" symbolic="YES" id="H3u-c5-Sak"/>
+                            <constraint firstItem="HWN-f5-5gT" firstAttribute="centerX" secondItem="EdD-a9-UFV" secondAttribute="centerX" id="LqB-Kt-toW"/>
+                            <constraint firstItem="HWN-f5-5gT" firstAttribute="leading" secondItem="vBm-5g-rZp" secondAttribute="leading" id="M44-DE-3s7"/>
+                            <constraint firstItem="HWN-f5-5gT" firstAttribute="leading" secondItem="JtV-VX-coK" secondAttribute="leadingMargin" constant="-15" id="XTw-Jq-iuN"/>
+                            <constraint firstItem="EdD-a9-UFV" firstAttribute="trailing" secondItem="VpD-RV-hPI" secondAttribute="trailing" id="cMo-5G-bDF"/>
+                            <constraint firstItem="QzZ-eD-GXB" firstAttribute="top" secondItem="VpD-RV-hPI" secondAttribute="bottom" constant="250" id="gKO-Yc-8pQ"/>
+                            <constraint firstItem="HWN-f5-5gT" firstAttribute="trailing" secondItem="vBm-5g-rZp" secondAttribute="trailing" id="rl5-ad-omg"/>
+                            <constraint firstAttribute="bottom" secondItem="EdD-a9-UFV" secondAttribute="bottom" constant="591" id="tah-Q9-qeD"/>
+                            <constraint firstItem="vBm-5g-rZp" firstAttribute="top" secondItem="JtV-VX-coK" secondAttribute="top" constant="257" id="wCV-E9-78N"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
