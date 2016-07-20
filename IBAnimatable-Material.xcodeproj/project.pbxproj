@@ -636,6 +636,7 @@
 				E922835F1D33C9930049DE28 /* AnimatableMaterialNavBar.swift in Sources */,
 				5E89530E1D3677BD00E54575 /* AnimatableMaterialFabButton.swift in Sources */,
 				AEFC55ED1D32416E00D9EC01 /* AnimatableRaisedButton.swift in Sources */,
+				5E77989E1D3EF86F00D693BB /* AnimatableMaterialButton.swift in Sources */,
 				E92283461D33C59D0049DE28 /* MainTableView.swift in Sources */,
 				E922835D1D33C95D0049DE28 /* AnimatableMaterialTextFieldViewController.swift in Sources */,
 				5E77989C1D3EF7A700D693BB /* AnimatableMaterialMenuView.swift in Sources */,
