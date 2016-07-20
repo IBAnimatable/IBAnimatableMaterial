@@ -48,9 +48,6 @@ public class AnimatableMaterialSearchBar: SearchBar, CornerDesignable, FillDesig
     }
   }
   
-  
-  
-  // MARK: - BlurDesignable
   // MARK: - BlurDesignable
   @IBInspectable public var blurEffectStyle: String? {
     didSet {

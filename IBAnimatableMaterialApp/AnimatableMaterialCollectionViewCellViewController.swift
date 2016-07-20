@@ -8,6 +8,7 @@
 
 import UIKit
 import Material
+import IBAnimatableMaterial
 
 class AnimatableMaterialCollectionViewCellViewController: UICollectionViewController, UICollectionViewDelegateFlowLayout {
   
