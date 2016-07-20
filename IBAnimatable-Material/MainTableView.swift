@@ -12,7 +12,7 @@ import IBAnimatable
 
 private enum components: String {
   case AnimatableMaterialButtons, AnimatableMaterialTextField, AnimatableMaterialErrorTextField = "ErrorTextField / TextView / Label / SearchBar", AnimatableMaterialCardView
-  case AnimatableImageCardView, AnimatableControlView, AnimatableMaterialCollectionViewCell
+  case AnimatableImageCardView, AnimatableControlView = "ControlView / PulseView", AnimatableMaterialCollectionViewCell
   
   static let AllValues = [AnimatableMaterialButtons, AnimatableMaterialTextField, AnimatableMaterialErrorTextField, AnimatableMaterialCardView, AnimatableImageCardView, AnimatableControlView, AnimatableMaterialCollectionViewCell]
 }
