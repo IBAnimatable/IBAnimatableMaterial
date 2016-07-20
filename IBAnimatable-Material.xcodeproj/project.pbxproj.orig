@@ -19,9 +19,12 @@
 		5E7798961D3EEF6300D693BB /* AnimatableMaterialCollectionViewCellViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E7798951D3EEF6300D693BB /* AnimatableMaterialCollectionViewCellViewController.storyboard */; };
 		5E77989A1D3EF02A00D693BB /* AnimatableMaterialCollectionViewCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7798991D3EF02A00D693BB /* AnimatableMaterialCollectionViewCellViewController.swift */; };
 		5E77989C1D3EF7A700D693BB /* AnimatableMaterialMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E77989B1D3EF7A700D693BB /* AnimatableMaterialMenuView.swift */; };
+<<<<<<< f689eae596b79507be3934a310939d274b75f90b
 		5E77989E1D3EF86F00D693BB /* AnimatableMaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E77989D1D3EF86F00D693BB /* AnimatableMaterialButton.swift */; };
 		5E7798A01D3EFE9100D693BB /* AnimatableMaterialIconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E77989F1D3EFE9100D693BB /* AnimatableMaterialIconButton.swift */; };
 		5E7798A21D3F06EB00D693BB /* AnimatableMaterialPulseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7798A11D3F06EB00D693BB /* AnimatableMaterialPulseView.swift */; };
+=======
+>>>>>>> Added  AnimatableMaterialCollectionViewCell
 		5E89530E1D3677BD00E54575 /* AnimatableMaterialFabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E89530D1D3677BD00E54575 /* AnimatableMaterialFabButton.swift */; };
 		5E8953171D36853A00E54575 /* AnimatableMaterialCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8953161D36853A00E54575 /* AnimatableMaterialCardView.swift */; };
 		5E8953191D3689C700E54575 /* AnimatableMaterialCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8953181D3689C700E54575 /* AnimatableMaterialCardViewController.swift */; };
@@ -105,9 +108,12 @@
 		5E7798951D3EEF6300D693BB /* AnimatableMaterialCollectionViewCellViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AnimatableMaterialCollectionViewCellViewController.storyboard; sourceTree = "<group>"; };
 		5E7798991D3EF02A00D693BB /* AnimatableMaterialCollectionViewCellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialCollectionViewCellViewController.swift; sourceTree = "<group>"; };
 		5E77989B1D3EF7A700D693BB /* AnimatableMaterialMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialMenuView.swift; sourceTree = "<group>"; };
+<<<<<<< f689eae596b79507be3934a310939d274b75f90b
 		5E77989D1D3EF86F00D693BB /* AnimatableMaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialButton.swift; sourceTree = "<group>"; };
 		5E77989F1D3EFE9100D693BB /* AnimatableMaterialIconButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialIconButton.swift; sourceTree = "<group>"; };
 		5E7798A11D3F06EB00D693BB /* AnimatableMaterialPulseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialPulseView.swift; sourceTree = "<group>"; };
+=======
+>>>>>>> Added  AnimatableMaterialCollectionViewCell
 		5E89530D1D3677BD00E54575 /* AnimatableMaterialFabButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialFabButton.swift; sourceTree = "<group>"; };
 		5E8953161D36853A00E54575 /* AnimatableMaterialCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialCardView.swift; sourceTree = "<group>"; };
 		5E8953181D3689C700E54575 /* AnimatableMaterialCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialCardViewController.swift; sourceTree = "<group>"; };
@@ -281,7 +287,10 @@
 				5E7798911D3DCE0200D693BB /* AnimatableMaterialSearchBar.swift */,
 				5E7798931D3EED9400D693BB /* AnimatableMaterialCollectionViewCell.swift */,
 				5E77989B1D3EF7A700D693BB /* AnimatableMaterialMenuView.swift */,
+<<<<<<< f689eae596b79507be3934a310939d274b75f90b
 				5E7798A11D3F06EB00D693BB /* AnimatableMaterialPulseView.swift */,
+=======
+>>>>>>> Added  AnimatableMaterialCollectionViewCell
 			);
 			name = Code;
 			path = "../IBAnimatable-Material";
@@ -628,6 +637,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E953D8B51D3E278700647D4D /* IBAnimatableMaterialTests.swift in Sources */,
+<<<<<<< f689eae596b79507be3934a310939d274b75f90b
+=======
+=======
 				5E7798821D3C52E300D693BB /* AnimatableMaterialImageCardView .swift in Sources */,
 				5E11C6531D358A8C00318B7C /* AnimatableFlatButton.swift in Sources */,
 				5E77988E1D3DC25D00D693BB /* AnimatableMaterialErrorTextFieldAndTextViewViewController.swift in Sources */,
@@ -646,6 +658,8 @@
 				AEFC55DB1D32212D00D9EC01 /* AppDelegate.swift in Sources */,
 				5E7798861D3C652900D693BB /* AnimatableMaterialControlView.swift in Sources */,
 				5E7798921D3DCE0200D693BB /* AnimatableMaterialSearchBar.swift in Sources */,
+>>>>>>> origin/master
+>>>>>>> Added  AnimatableMaterialCollectionViewCell
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,8 +11,12 @@ import Material
 
 class AnimatableMaterialCollectionViewCellViewController: UICollectionViewController, UICollectionViewDelegateFlowLayout {
   
+<<<<<<< f689eae596b79507be3934a310939d274b75f90b
+  private lazy var menuView: AnimatableMaterialMenuView = AnimatableMaterialMenuView()
+=======
   private lazy var menuView: MenuView = MenuView()
   
+>>>>>>> Added  AnimatableMaterialCollectionViewCell
   
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -26,7 +30,13 @@ class AnimatableMaterialCollectionViewCellViewController: UICollectionViewContro
       (menuView.menu.views?.first as? MaterialButton)?.animate(MaterialAnimation.rotate(rotation: 0))
     } else {
       menuView.menu.open() { (v: UIView) in
+<<<<<<< f689eae596b79507be3934a310939d274b75f90b
+        if let v = v as? AnimatableMaterialFabButton{
+          v.pulse()
+        }
+=======
         (v as? MaterialButton)?.pulse()
+>>>>>>> Added  AnimatableMaterialCollectionViewCell
       }
       (menuView.menu.views?.first as? MaterialButton)?.animate(MaterialAnimation.rotate(rotation: 0.125))
     }
@@ -34,6 +44,18 @@ class AnimatableMaterialCollectionViewCellViewController: UICollectionViewContro
   
   /// Handle the menuView touch event.
   @objc(handleButton:)
+<<<<<<< f689eae596b79507be3934a310939d274b75f90b
+  internal func handleButton(button: AnimatableMaterialFabButton) {
+    button.wobble()
+    print("Menu Button was tapped")
+  }
+  
+  
+  /// Prepares the MenuView example.
+  private func prepareMenuViewExample() {
+    var image: UIImage? = MaterialIcon.cm.audio
+    let btn1: AnimatableMaterialFabButton = AnimatableMaterialFabButton()
+=======
   internal func handleButton(button: UIButton) {
     print("Menu Button was tapped")
   }
@@ -43,22 +65,34 @@ class AnimatableMaterialCollectionViewCellViewController: UICollectionViewContro
   private func prepareMenuViewExample() {
     var image: UIImage? = MaterialIcon.cm.audio
     let btn1: FabButton = FabButton()
+>>>>>>> Added  AnimatableMaterialCollectionViewCell
     btn1.setImage(image, forState: .Normal)
     btn1.addTarget(self, action: #selector(handleMenu), forControlEvents: .TouchUpInside)
     menuView.addSubview(btn1)
     
     image = MaterialIcon.image
+<<<<<<< f689eae596b79507be3934a310939d274b75f90b
+    let btn2: AnimatableMaterialFabButton = AnimatableMaterialFabButton()
+=======
     let btn2: FabButton = FabButton()
+>>>>>>> Added  AnimatableMaterialCollectionViewCell
     btn2.setImage(image, forState: .Normal)
     btn2.addTarget(self, action: #selector(handleButton), forControlEvents: .TouchUpInside)
     menuView.addSubview(btn2)
     
     
     image = MaterialIcon.share
+<<<<<<< f689eae596b79507be3934a310939d274b75f90b
+    let btn3: AnimatableMaterialFabButton = AnimatableMaterialFabButton()
+    btn3.setImage(image, forState: .Normal)
+    btn3.addTarget(self, action: #selector(handleButton), forControlEvents: .TouchUpInside)
+    menuView.addSubview(btn3)
+=======
     let btn3: FabButton = FabButton()
     btn3.setImage(image, forState: .Normal)
     btn3.addTarget(self, action: #selector(handleButton), forControlEvents: .TouchUpInside)
     menuView.addSubview(btn2)
+>>>>>>> Added  AnimatableMaterialCollectionViewCell
     
     // Initialize the menu and setup the configuration options.
     menuView.menu.direction = .Up
@@ -66,10 +100,20 @@ class AnimatableMaterialCollectionViewCellViewController: UICollectionViewContro
     menuView.menu.views = [btn1, btn2, btn3]
     
     view.layout(menuView).width(100).height(100).bottom(40).right()
+<<<<<<< f689eae596b79507be3934a310939d274b75f90b
+    
+    //FIX-ME: Animation not executed, view simply blinks
+    menuView.delay = 0.5
+    menuView.wobble()
+  }
+  
+  
+=======
     self.collectionView?.bringSubviewToFront(menuView)
   }
   
 
+>>>>>>> Added  AnimatableMaterialCollectionViewCell
   
   // MARK: UICollectionViewDataSource
   
@@ -102,7 +146,10 @@ class AnimatableMaterialCollectionViewCellViewController: UICollectionViewContro
 
 
 class DemoCollectionViewCell: AnimatableMaterialCollectionViewCell{
+<<<<<<< f689eae596b79507be3934a310939d274b75f90b
+=======
   
+>>>>>>> Added  AnimatableMaterialCollectionViewCell
 }
 
 
