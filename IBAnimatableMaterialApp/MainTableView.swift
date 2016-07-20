@@ -8,8 +8,8 @@
 
 import Foundation
 import Material
-import IBAnimatableMaterial
 import IBAnimatable
+import IBAnimatableMaterial
 
 private enum components: String {
   case AnimatableMaterialButtons, AnimatableMaterialTextField, AnimatableMaterialErrorTextField = "ErrorTextField / TextView / Label / SearchBar", AnimatableMaterialCardView

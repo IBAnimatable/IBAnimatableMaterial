@@ -729,7 +729,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				INFOPLIST_FILE = IBAnimatableMaterial/Info.plist;
+				INFOPLIST_FILE = IBAnimatableMaterialApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = IBAnimatable.IBAnimatableMaterialApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -742,7 +742,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				INFOPLIST_FILE = IBAnimatableMaterial/Info.plist;
+				INFOPLIST_FILE = IBAnimatableMaterialApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = IBAnimatable.IBAnimatableMaterialApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
