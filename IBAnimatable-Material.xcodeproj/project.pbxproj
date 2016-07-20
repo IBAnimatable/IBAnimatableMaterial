@@ -644,6 +644,7 @@
 				5E77988A1D3DBC5500D693BB /* AnimatableMaterialErrorTextField .swift in Sources */,
 				5E77989A1D3EF02A00D693BB /* AnimatableMaterialCollectionViewCellViewController.swift in Sources */,
 				5E7798941D3EED9400D693BB /* AnimatableMaterialCollectionViewCell.swift in Sources */,
+				5E7798A21D3F06EB00D693BB /* AnimatableMaterialPulseView.swift in Sources */,
 				E922835C1D33C95D0049DE28 /* AnimatableMaterialTextField.swift in Sources */,
 				AEFC55DB1D32212D00D9EC01 /* AppDelegate.swift in Sources */,
 				5E7798861D3C652900D693BB /* AnimatableMaterialControlView.swift in Sources */,

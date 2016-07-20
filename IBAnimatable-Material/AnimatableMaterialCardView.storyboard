@@ -112,7 +112,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VpD-RV-hPI" customClass="AnimatableMaterialPulseView" customModule="IBAnimatable_Material" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VpD-RV-hPI" customClass="AnimatableMaterialPulseView" customModule="IBAnimatableMaterial" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="286" width="414" height="200"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <userDefinedRuntimeAttributes>
