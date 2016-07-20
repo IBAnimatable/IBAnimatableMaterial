@@ -17,6 +17,10 @@
 		5E77988E1D3DC25D00D693BB /* AnimatableMaterialErrorTextFieldAndTextViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E77988D1D3DC25D00D693BB /* AnimatableMaterialErrorTextFieldAndTextViewViewController.swift */; };
 		5E7798901D3DC87A00D693BB /* AnimatableMaterialLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E77988F1D3DC87A00D693BB /* AnimatableMaterialLabel.swift */; };
 		5E7798921D3DCE0200D693BB /* AnimatableMaterialSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7798911D3DCE0200D693BB /* AnimatableMaterialSearchBar.swift */; };
+		5E7798941D3EED9400D693BB /* AnimatableMaterialCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7798931D3EED9400D693BB /* AnimatableMaterialCollectionViewCell.swift */; };
+		5E7798961D3EEF6300D693BB /* AnimatableMaterialCollectionViewCellViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E7798951D3EEF6300D693BB /* AnimatableMaterialCollectionViewCellViewController.storyboard */; };
+		5E77989A1D3EF02A00D693BB /* AnimatableMaterialCollectionViewCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7798991D3EF02A00D693BB /* AnimatableMaterialCollectionViewCellViewController.swift */; };
+		5E77989C1D3EF7A700D693BB /* AnimatableMaterialMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E77989B1D3EF7A700D693BB /* AnimatableMaterialMenuView.swift */; };
 		5E89530E1D3677BD00E54575 /* AnimatableMaterialFabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E89530D1D3677BD00E54575 /* AnimatableMaterialFabButton.swift */; };
 		5E8953171D36853A00E54575 /* AnimatableMaterialCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8953161D36853A00E54575 /* AnimatableMaterialCardView.swift */; };
 		5E8953191D3689C700E54575 /* AnimatableMaterialCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8953181D3689C700E54575 /* AnimatableMaterialCardViewController.swift */; };
@@ -49,6 +53,10 @@
 		5E77988D1D3DC25D00D693BB /* AnimatableMaterialErrorTextFieldAndTextViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialErrorTextFieldAndTextViewViewController.swift; sourceTree = "<group>"; };
 		5E77988F1D3DC87A00D693BB /* AnimatableMaterialLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialLabel.swift; sourceTree = "<group>"; };
 		5E7798911D3DCE0200D693BB /* AnimatableMaterialSearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialSearchBar.swift; sourceTree = "<group>"; };
+		5E7798931D3EED9400D693BB /* AnimatableMaterialCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialCollectionViewCell.swift; sourceTree = "<group>"; };
+		5E7798951D3EEF6300D693BB /* AnimatableMaterialCollectionViewCellViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AnimatableMaterialCollectionViewCellViewController.storyboard; sourceTree = "<group>"; };
+		5E7798991D3EF02A00D693BB /* AnimatableMaterialCollectionViewCellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialCollectionViewCellViewController.swift; sourceTree = "<group>"; };
+		5E77989B1D3EF7A700D693BB /* AnimatableMaterialMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialMenuView.swift; sourceTree = "<group>"; };
 		5E89530D1D3677BD00E54575 /* AnimatableMaterialFabButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialFabButton.swift; sourceTree = "<group>"; };
 		5E8953161D36853A00E54575 /* AnimatableMaterialCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialCardView.swift; sourceTree = "<group>"; };
 		5E8953181D3689C700E54575 /* AnimatableMaterialCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialCardViewController.swift; sourceTree = "<group>"; };
@@ -142,6 +150,8 @@
 				5E7798811D3C52E300D693BB /* AnimatableMaterialImageCardView .swift */,
 				5E7798851D3C652900D693BB /* AnimatableMaterialControlView.swift */,
 				5E7798911D3DCE0200D693BB /* AnimatableMaterialSearchBar.swift */,
+				5E7798931D3EED9400D693BB /* AnimatableMaterialCollectionViewCell.swift */,
+				5E77989B1D3EF7A700D693BB /* AnimatableMaterialMenuView.swift */,
 			);
 			name = Code;
 			sourceTree = "<group>";
@@ -153,6 +163,7 @@
 				E92283651D33CAA90049DE28 /* AnimatableMaterialButtons.storyboard */,
 				E92283581D33C95D0049DE28 /* AnimatableMaterialTextField.storyboard */,
 				5E89531C1D368F1F00E54575 /* AnimatableMaterialCardView.storyboard */,
+				5E7798951D3EEF6300D693BB /* AnimatableMaterialCollectionViewCellViewController.storyboard */,
 			);
 			name = Storyboard;
 			sourceTree = "<group>";
@@ -165,6 +176,7 @@
 				5E8953181D3689C700E54575 /* AnimatableMaterialCardViewController.swift */,
 				5E7798831D3C560D00D693BB /* AnimatableMaterialImageCardViewController.swift */,
 				5E7798871D3C65DA00D693BB /* AnimatableMaterialControlViewController.swift */,
+				5E7798991D3EF02A00D693BB /* AnimatableMaterialCollectionViewCellViewController.swift */,
 			);
 			name = "Example View Controller Code";
 			sourceTree = "<group>";
@@ -242,6 +254,7 @@
 				E92283661D33CAA90049DE28 /* AnimatableMaterialButtons.storyboard in Resources */,
 				AEFC55E51D32212D00D9EC01 /* LaunchScreen.storyboard in Resources */,
 				AEFC55E21D32212D00D9EC01 /* Assets.xcassets in Resources */,
+				5E7798961D3EEF6300D693BB /* AnimatableMaterialCollectionViewCellViewController.storyboard in Resources */,
 				AEFC55E01D32212D00D9EC01 /* Main.storyboard in Resources */,
 				E922835B1D33C95D0049DE28 /* AnimatableMaterialTextField.storyboard in Resources */,
 				5E89531D1D368F1F00E54575 /* AnimatableMaterialCardView.storyboard in Resources */,
@@ -319,7 +332,10 @@
 				AEFC55ED1D32416E00D9EC01 /* AnimatableRaisedButton.swift in Sources */,
 				E92283461D33C59D0049DE28 /* MainTableView.swift in Sources */,
 				E922835D1D33C95D0049DE28 /* AnimatableMaterialTextFieldViewController.swift in Sources */,
+				5E77989C1D3EF7A700D693BB /* AnimatableMaterialMenuView.swift in Sources */,
 				5E77988A1D3DBC5500D693BB /* AnimatableMaterialErrorTextField .swift in Sources */,
+				5E77989A1D3EF02A00D693BB /* AnimatableMaterialCollectionViewCellViewController.swift in Sources */,
+				5E7798941D3EED9400D693BB /* AnimatableMaterialCollectionViewCell.swift in Sources */,
 				E922835C1D33C95D0049DE28 /* AnimatableMaterialTextField.swift in Sources */,
 				AEFC55DB1D32212D00D9EC01 /* AppDelegate.swift in Sources */,
 				5E7798861D3C652900D693BB /* AnimatableMaterialControlView.swift in Sources */,

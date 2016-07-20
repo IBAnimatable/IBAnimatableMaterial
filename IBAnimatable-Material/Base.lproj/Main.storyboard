@@ -57,6 +57,7 @@
                         <segue destination="vk1-TQ-yH2" kind="show" identifier="toAnimatableMaterialImageCardView" id="t9u-LN-Kbc"/>
                         <segue destination="CGU-cR-wWN" kind="show" identifier="toAnimatableMaterialControlView" id="mHU-Yt-L0u"/>
                         <segue destination="hCc-4I-5pX" kind="show" identifier="toAnimatableMaterialErrorTextField" id="Bx3-eN-XB4"/>
+                        <segue destination="2U1-PL-a82" kind="show" identifier="toAnimatableMaterialCollectionViewCellViewController" id="idE-3Y-sN5"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G0x-nq-haq" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -85,7 +86,7 @@
                 <viewControllerPlaceholder storyboardName="AnimatableMaterialCardView" referencedIdentifier="AnimatableMaterialCardView" id="J3P-YW-cco" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gVl-Ju-j6E" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1216.5" y="987"/>
+            <point key="canvasLocation" x="1298.5" y="949"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="QjK-zX-rdV">
@@ -118,7 +119,7 @@
                 <viewControllerPlaceholder storyboardName="AnimatableMaterialCardView" referencedIdentifier="AnimatableMaterialImageCardView" id="vk1-TQ-yH2" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f4Z-Qh-ZiD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1235" y="1023"/>
+            <point key="canvasLocation" x="1317" y="986"/>
         </scene>
         <!--AnimatableMaterialControlView-->
         <scene sceneID="gve-dm-qEI">
@@ -126,7 +127,15 @@
                 <viewControllerPlaceholder storyboardName="AnimatableMaterialCardView" referencedIdentifier="AnimatableMaterialControlView" id="CGU-cR-wWN" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Q8-tK-weH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1184.5" y="1096"/>
+            <point key="canvasLocation" x="1306.5" y="1022"/>
+        </scene>
+        <!--AnimatableMaterialCollectionViewCellViewController-->
+        <scene sceneID="GrL-5n-hYR">
+            <objects>
+                <viewControllerPlaceholder storyboardName="AnimatableMaterialCollectionViewCellViewController" referencedIdentifier="AnimatableMaterialCollectionViewCellViewController" id="2U1-PL-a82" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f8y-Uk-BWI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1327" y="1142"/>
         </scene>
         <!--AnimatableMaterialErrorTextField-->
         <scene sceneID="C0b-Pt-e8d">
