@@ -8,7 +8,7 @@
         <!--Animatable Material Text Field View Controller-->
         <scene sceneID="2Es-BS-x2H">
             <objects>
-                <viewController storyboardIdentifier="AnimatableMaterialTextField" id="Mtn-GM-Eic" customClass="AnimatableMaterialTextFieldViewController" customModule="IBAnimatable_Material" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AnimatableMaterialTextField" id="Mtn-GM-Eic" customClass="AnimatableMaterialTextFieldViewController" customModule="IBAnimatableMaterialApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jEb-So-XtW"/>
                         <viewControllerLayoutGuide type="bottom" id="XJ7-if-7wa"/>

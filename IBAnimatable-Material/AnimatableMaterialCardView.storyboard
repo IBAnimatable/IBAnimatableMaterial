@@ -9,7 +9,7 @@
         <!--Animatable Material Card View Controller-->
         <scene sceneID="FW2-5f-l2j">
             <objects>
-                <viewController storyboardIdentifier="AnimatableMaterialCardView" id="ago-GZ-Att" customClass="AnimatableMaterialCardViewController" customModule="IBAnimatable_Material" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AnimatableMaterialCardView" id="ago-GZ-Att" customClass="AnimatableMaterialCardViewController" customModule="IBAnimatableMaterialApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Mrk-aG-gze"/>
                         <viewControllerLayoutGuide type="bottom" id="rmY-YL-ebz"/>
@@ -60,7 +60,7 @@
         <!--Animatable Material Image Card View Controller-->
         <scene sceneID="s2U-9J-9RP">
             <objects>
-                <viewController storyboardIdentifier="AnimatableMaterialImageCardView" id="e6E-Tg-icf" customClass="AnimatableMaterialImageCardViewController" customModule="IBAnimatable_Material" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AnimatableMaterialImageCardView" id="e6E-Tg-icf" customClass="AnimatableMaterialImageCardViewController" customModule="IBAnimatableMaterialApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="QaP-fh-I8t"/>
                         <viewControllerLayoutGuide type="bottom" id="JGd-wX-dGd"/>
@@ -103,7 +103,7 @@
         <!--Animatable Material Control View Controller-->
         <scene sceneID="trd-Lz-UPH">
             <objects>
-                <viewController storyboardIdentifier="AnimatableMaterialControlView" id="cdF-xk-4Ze" customClass="AnimatableMaterialControlViewController" customModule="IBAnimatable_Material" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AnimatableMaterialControlView" id="cdF-xk-4Ze" customClass="AnimatableMaterialControlViewController" customModule="IBAnimatableMaterialApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="6XN-rD-kEa"/>
                         <viewControllerLayoutGuide type="bottom" id="QzZ-eD-GXB"/>

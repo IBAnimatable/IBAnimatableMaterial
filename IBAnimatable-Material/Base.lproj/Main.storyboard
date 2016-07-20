@@ -8,7 +8,7 @@
         <!--Component-->
         <scene sceneID="N5O-Cp-wc9">
             <objects>
-                <tableViewController title="Component" id="KnH-JO-JQk" customClass="MainTableView" customModule="IBAnimatable_Material" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="Component" id="KnH-JO-JQk" customClass="MainTableView" customModule="IBAnimatableMaterialApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="80" sectionHeaderHeight="28" sectionFooterHeight="28" id="Wfu-is-OPO" customClass="AnimatableTableView" customModule="IBAnimatable">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

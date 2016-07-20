@@ -27,7 +27,6 @@
 		5E8953191D3689C700E54575 /* AnimatableMaterialCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8953181D3689C700E54575 /* AnimatableMaterialCardViewController.swift */; };
 		5E89531D1D368F1F00E54575 /* AnimatableMaterialCardView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E89531C1D368F1F00E54575 /* AnimatableMaterialCardView.storyboard */; };
 		AEFC55DB1D32212D00D9EC01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFC55DA1D32212D00D9EC01 /* AppDelegate.swift */; };
-		AEFC55DD1D32212D00D9EC01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFC55DC1D32212D00D9EC01 /* ViewController.swift */; };
 		AEFC55E01D32212D00D9EC01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEFC55DE1D32212D00D9EC01 /* Main.storyboard */; };
 		AEFC55E21D32212D00D9EC01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEFC55E11D32212D00D9EC01 /* Assets.xcassets */; };
 		AEFC55E51D32212D00D9EC01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEFC55E31D32212D00D9EC01 /* LaunchScreen.storyboard */; };
@@ -120,7 +119,6 @@
 		AE77A42B1D3F2D6900EF8651 /* Material.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Material.framework; path = "../../../Library/Developer/Xcode/DerivedData/IBAnimatable-Material-cjdagdqeuoiddebdikaqqvnnagrh/Build/Products/Debug-iphonesimulator/Material/Material.framework"; sourceTree = "<group>"; };
 		AEFC55D71D32212D00D9EC01 /* IBAnimatableMaterialApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IBAnimatableMaterialApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEFC55DA1D32212D00D9EC01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AEFC55DC1D32212D00D9EC01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AEFC55DF1D32212D00D9EC01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AEFC55E11D32212D00D9EC01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEFC55E41D32212D00D9EC01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -306,7 +304,6 @@
 			isa = PBXGroup;
 			children = (
 				AEFC55DA1D32212D00D9EC01 /* AppDelegate.swift */,
-				AEFC55DC1D32212D00D9EC01 /* ViewController.swift */,
 				E92283451D33C59D0049DE28 /* MainTableView.swift */,
 				E922835A1D33C95D0049DE28 /* AnimatableMaterialTextFieldViewController.swift */,
 				5E77988D1D3DC25D00D693BB /* AnimatableMaterialErrorTextFieldAndTextViewViewController.swift */,
@@ -583,7 +580,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEFC55DD1D32212D00D9EC01 /* ViewController.swift in Sources */,
 				5E7798841D3C560D00D693BB /* AnimatableMaterialImageCardViewController.swift in Sources */,
 				5E8953191D3689C700E54575 /* AnimatableMaterialCardViewController.swift in Sources */,
 				5E7798881D3C65DA00D693BB /* AnimatableMaterialControlViewController.swift in Sources */,
