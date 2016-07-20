@@ -5,7 +5,7 @@ target 'IBAnimatableMaterial' do
     pod 'IBAnimatable'
     pod 'Material'
 end
-target 'IBAnimatable-Material' do
+target 'IBAnimatableMaterialApp' do
     pod 'IBAnimatable'
     pod 'Material'
 end
