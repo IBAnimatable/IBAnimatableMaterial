@@ -13,7 +13,6 @@ class AnimatableMaterialCollectionViewCellViewController: UICollectionViewContro
   
   private lazy var menuView: AnimatableMaterialMenuView = AnimatableMaterialMenuView()
   
-  
   override func viewDidLoad() {
     super.viewDidLoad()
     prepareMenuViewExample()
@@ -61,7 +60,7 @@ class AnimatableMaterialCollectionViewCellViewController: UICollectionViewContro
     let btn3: AnimatableMaterialFabButton = AnimatableMaterialFabButton()
     btn3.setImage(image, forState: .Normal)
     btn3.addTarget(self, action: #selector(handleButton), forControlEvents: .TouchUpInside)
-    menuView.addSubview(btn2)
+    menuView.addSubview(btn3)
     
     // Initialize the menu and setup the configuration options.
     menuView.menu.direction = .Up
