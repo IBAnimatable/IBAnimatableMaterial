@@ -11,7 +11,7 @@ import Material
 
 class AnimatableMaterialCollectionViewCellViewController: UICollectionViewController, UICollectionViewDelegateFlowLayout {
   
-  private lazy var menuView: MenuView = MenuView()
+  private lazy var menuView: AnimatableMaterialMenuView = AnimatableMaterialMenuView()
   
   
   override func viewDidLoad() {
@@ -26,7 +26,9 @@ class AnimatableMaterialCollectionViewCellViewController: UICollectionViewContro
       (menuView.menu.views?.first as? MaterialButton)?.animate(MaterialAnimation.rotate(rotation: 0))
     } else {
       menuView.menu.open() { (v: UIView) in
-        (v as? MaterialButton)?.pulse()
+        if let v = v as? AnimatableMaterialFabButton{
+          v.pulse()
+        }
       }
       (menuView.menu.views?.first as? MaterialButton)?.animate(MaterialAnimation.rotate(rotation: 0.125))
     }
@@ -34,28 +36,29 @@ class AnimatableMaterialCollectionViewCellViewController: UICollectionViewContro
   
   /// Handle the menuView touch event.
   @objc(handleButton:)
-  internal func handleButton(button: UIButton) {
+  internal func handleButton(button: AnimatableMaterialFabButton) {
+    button.wobble()
     print("Menu Button was tapped")
   }
   
-
+  
   /// Prepares the MenuView example.
   private func prepareMenuViewExample() {
     var image: UIImage? = MaterialIcon.cm.audio
-    let btn1: FabButton = FabButton()
+    let btn1: AnimatableMaterialFabButton = AnimatableMaterialFabButton()
     btn1.setImage(image, forState: .Normal)
     btn1.addTarget(self, action: #selector(handleMenu), forControlEvents: .TouchUpInside)
     menuView.addSubview(btn1)
     
     image = MaterialIcon.image
-    let btn2: FabButton = FabButton()
+    let btn2: AnimatableMaterialFabButton = AnimatableMaterialFabButton()
     btn2.setImage(image, forState: .Normal)
     btn2.addTarget(self, action: #selector(handleButton), forControlEvents: .TouchUpInside)
     menuView.addSubview(btn2)
     
     
     image = MaterialIcon.share
-    let btn3: FabButton = FabButton()
+    let btn3: AnimatableMaterialFabButton = AnimatableMaterialFabButton()
     btn3.setImage(image, forState: .Normal)
     btn3.addTarget(self, action: #selector(handleButton), forControlEvents: .TouchUpInside)
     menuView.addSubview(btn2)
@@ -66,10 +69,13 @@ class AnimatableMaterialCollectionViewCellViewController: UICollectionViewContro
     menuView.menu.views = [btn1, btn2, btn3]
     
     view.layout(menuView).width(100).height(100).bottom(40).right()
-    self.collectionView?.bringSubviewToFront(menuView)
+    
+    //FIX-ME: Animation not executed, view simply blinks
+    menuView.delay = 0.5
+    menuView.wobble()
   }
   
-
+  
   
   // MARK: UICollectionViewDataSource
   
@@ -102,7 +108,6 @@ class AnimatableMaterialCollectionViewCellViewController: UICollectionViewContro
 
 
 class DemoCollectionViewCell: AnimatableMaterialCollectionViewCell{
-  
 }
 
 
