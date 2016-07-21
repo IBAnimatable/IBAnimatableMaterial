@@ -1,6 +1,6 @@
 //
 //  AnimatableMaterialImageCardViewController.swift
-//  IBAnimatable-Material
+//  IBAnimatableMaterial
 //
 //  Created by George Kye on 2016-07-17.
 //  Copyright © 2016 IBAnimatable. All rights reserved.

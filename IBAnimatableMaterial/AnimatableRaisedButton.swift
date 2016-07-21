@@ -1,6 +1,6 @@
 //
 //  AnimatableRaisedButton.swift
-//  IBAnimatable-Material
+//  IBAnimatableMaterial
 //
 //  Created by Jake Lin on 7/10/16.
 //  Copyright © 2016 IBAnimatable. All rights reserved.

@@ -1,6 +1,6 @@
 //
 //  AnimatableFlatButton.swift
-//  IBAnimatable-Material
+//  IBAnimatableMaterial
 //
 //  Created by George on 2016-07-12.
 //  Copyright © 2016 IBAnimatable. All rights reserved.
