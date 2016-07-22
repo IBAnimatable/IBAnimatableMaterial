@@ -422,7 +422,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AEFC55D21D32212D00D9EC01 /* Build configuration list for PBXProject "IBAnimatable-Material" */;
+			buildConfigurationList = AEFC55D21D32212D00D9EC01 /* Build configuration list for PBXProject "IBAnimatableMaterial" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -728,7 +728,6 @@
 			baseConfigurationReference = CDC59B09A525FA2165BBC1FD /* Pods-IBAnimatableMaterialApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = IBAnimatableMaterialApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = IBAnimatable.IBAnimatableMaterialApp;
@@ -741,7 +740,6 @@
 			baseConfigurationReference = EAA74D9276D54770F273CC1A /* Pods-IBAnimatableMaterialApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = IBAnimatableMaterialApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = IBAnimatable.IBAnimatableMaterialApp;
@@ -801,7 +799,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = IBAnimatable.IBAnimatableMaterialTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IBAnimatable-Material.app/IBAnimatable-Material";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IBAnimatableMaterial.app/IBAnimatableMaterial";
 			};
 			name = Debug;
 		};
@@ -812,14 +810,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = IBAnimatable.IBAnimatableMaterialTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IBAnimatable-Material.app/IBAnimatable-Material";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IBAnimatableMaterial.app/IBAnimatableMaterial";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AEFC55D21D32212D00D9EC01 /* Build configuration list for PBXProject "IBAnimatable-Material" */ = {
+		AEFC55D21D32212D00D9EC01 /* Build configuration list for PBXProject "IBAnimatableMaterial" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AEFC55E71D32212D00D9EC01 /* Debug */,
