@@ -17,6 +17,9 @@
 		5E89531D1D368F1F00E54575 /* AnimatableMaterialCardView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E89531C1D368F1F00E54575 /* AnimatableMaterialCardView.storyboard */; };
 		5EEAC4561D44EAE400608400 /* AnimatableMaterialBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEAC4551D44EAE400608400 /* AnimatableMaterialBarView.swift */; };
 		5EEAC4581D44EC3800608400 /* AnimatableMaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEAC4571D44EC3800608400 /* AnimatableMaterialView.swift */; };
+		5EEAC45A1D44EFBA00608400 /* AnimatableMaterialBars.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EEAC4591D44EFBA00608400 /* AnimatableMaterialBars.storyboard */; };
+		5EEAC45C1D44F07600608400 /* AnimatableMaterialTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEAC45B1D44F07600608400 /* AnimatableMaterialTabBar.swift */; };
+		5EEAC45E1D44F1B200608400 /* AnimatableMaterialBarViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEAC45D1D44F1B200608400 /* AnimatableMaterialBarViews.swift */; };
 		AE4948571D3FAEC400A2DC24 /* IBAnimatableMaterial.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E953D8A41D3E278700647D4D /* IBAnimatableMaterial.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AE4948581D3FAEE800A2DC24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFC55DA1D32212D00D9EC01 /* AppDelegate.swift */; };
 		AE4948591D3FAEE800A2DC24 /* AnimatableMaterialTextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E922835A1D33C95D0049DE28 /* AnimatableMaterialTextFieldViewController.swift */; };
@@ -98,6 +101,9 @@
 		5E89531C1D368F1F00E54575 /* AnimatableMaterialCardView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AnimatableMaterialCardView.storyboard; sourceTree = "<group>"; };
 		5EEAC4551D44EAE400608400 /* AnimatableMaterialBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialBarView.swift; sourceTree = "<group>"; };
 		5EEAC4571D44EC3800608400 /* AnimatableMaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialView.swift; sourceTree = "<group>"; };
+		5EEAC4591D44EFBA00608400 /* AnimatableMaterialBars.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AnimatableMaterialBars.storyboard; sourceTree = "<group>"; };
+		5EEAC45B1D44F07600608400 /* AnimatableMaterialTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialTabBar.swift; sourceTree = "<group>"; };
+		5EEAC45D1D44F1B200608400 /* AnimatableMaterialBarViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialBarViews.swift; sourceTree = "<group>"; };
 		69CD4C2929274C9999D253DF /* Pods-IBAnimatableMaterial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBAnimatableMaterial.release.xcconfig"; path = "Pods/Target Support Files/Pods-IBAnimatableMaterial/Pods-IBAnimatableMaterial.release.xcconfig"; sourceTree = "<group>"; };
 		846C1357CC810BF3298F1831 /* Pods-IBAnimatableMaterial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBAnimatableMaterial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IBAnimatableMaterial/Pods-IBAnimatableMaterial.debug.xcconfig"; sourceTree = "<group>"; };
 		902930B75F76D17D0DFFF667 /* Pods_IBAnimatableMaterialApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IBAnimatableMaterialApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -219,6 +225,7 @@
 		AE77A4281D3F264500EF8651 /* Bars */ = {
 			isa = PBXGroup;
 			children = (
+				5EEAC45B1D44F07600608400 /* AnimatableMaterialTabBar.swift */,
 				AE4948791D3FB4A300A2DC24 /* AnimatableMaterialNavBar.swift */,
 				AE49487A1D3FB4A300A2DC24 /* AnimatableMaterialSearchBar.swift */,
 			);
@@ -277,6 +284,7 @@
 				E92283651D33CAA90049DE28 /* AnimatableMaterialButtons.storyboard */,
 				E92283581D33C95D0049DE28 /* AnimatableMaterialTextField.storyboard */,
 				5E89531C1D368F1F00E54575 /* AnimatableMaterialCardView.storyboard */,
+				5EEAC4591D44EFBA00608400 /* AnimatableMaterialBars.storyboard */,
 				5E7798951D3EEF6300D693BB /* AnimatableMaterialCollectionViewCellViewController.storyboard */,
 			);
 			name = Storyboard;
@@ -293,6 +301,7 @@
 				5E7798831D3C560D00D693BB /* AnimatableMaterialImageCardViewController.swift */,
 				5E7798871D3C65DA00D693BB /* AnimatableMaterialControlViewController.swift */,
 				5E7798991D3EF02A00D693BB /* AnimatableMaterialCollectionViewCellViewController.swift */,
+				5EEAC45D1D44F1B200608400 /* AnimatableMaterialBarViews.swift */,
 			);
 			name = Code;
 			sourceTree = "<group>";
@@ -460,6 +469,7 @@
 				5E7798961D3EEF6300D693BB /* AnimatableMaterialCollectionViewCellViewController.storyboard in Resources */,
 				E922835B1D33C95D0049DE28 /* AnimatableMaterialTextField.storyboard in Resources */,
 				5E89531D1D368F1F00E54575 /* AnimatableMaterialCardView.storyboard in Resources */,
+				5EEAC45A1D44EFBA00608400 /* AnimatableMaterialBars.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -563,6 +573,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E7798841D3C560D00D693BB /* AnimatableMaterialImageCardViewController.swift in Sources */,
+				5EEAC45E1D44F1B200608400 /* AnimatableMaterialBarViews.swift in Sources */,
 				5E8953191D3689C700E54575 /* AnimatableMaterialCardViewController.swift in Sources */,
 				5E7798881D3C65DA00D693BB /* AnimatableMaterialControlViewController.swift in Sources */,
 				5E77988E1D3DC25D00D693BB /* AnimatableMaterialErrorTextFieldAndTextViewViewController.swift in Sources */,
@@ -587,6 +598,7 @@
 				AE49486A1D3FB45D00A2DC24 /* AnimatableMaterialCardView.swift in Sources */,
 				AE49486B1D3FB45D00A2DC24 /* AnimatableMaterialControlView.swift in Sources */,
 				AE49486D1D3FB45D00A2DC24 /* AnimatableMaterialPulseView.swift in Sources */,
+				5EEAC45C1D44F07600608400 /* AnimatableMaterialTabBar.swift in Sources */,
 				AE4948801D3FB57300A2DC24 /* AnimatableMaterialFabButton.swift in Sources */,
 				5EEAC4581D44EC3800608400 /* AnimatableMaterialView.swift in Sources */,
 				AE4948601D3FB44300A2DC24 /* AnimatableFlatButton.swift in Sources */,

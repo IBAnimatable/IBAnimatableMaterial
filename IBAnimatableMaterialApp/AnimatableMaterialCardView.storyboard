@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -113,8 +113,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VpD-RV-hPI" customClass="AnimatableMaterialPulseView" customModule="IBAnimatableMaterial">
-                                <rect key="frame" x="0.0" y="286" width="414" height="200"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <rect key="frame" x="0.0" y="182" width="414" height="123"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="startColor">
                                         <color key="value" red="0.1819814891" green="0.69426733259999995" blue="0.53024792669999998" alpha="1" colorSpace="calibratedRGB"/>
@@ -134,7 +134,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PulseView" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vBm-5g-rZp">
-                                <rect key="frame" x="5" y="257" width="404" height="21"/>
+                                <rect key="frame" x="5" y="153" width="404" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -148,27 +148,54 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MaterialView" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wJi-xm-CAv">
+                                <rect key="frame" x="5" y="313" width="404" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YTZ-jY-rUU" customClass="AnimatableMaterialView" customModule="IBAnimatableMaterial">
+                                <rect key="frame" x="132" y="342" width="150" height="150"/>
+                                <color key="backgroundColor" red="0.46666666670000001" green="0.74901960779999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="image" value="timeline-bg"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="maskType" value="Circle"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animationType" value="SlideInRight"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="delay">
+                                        <real key="value" value="0.29999999999999999"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="EdD-a9-UFV" firstAttribute="leading" secondItem="VpD-RV-hPI" secondAttribute="leading" id="1Yp-yK-dYh"/>
-                            <constraint firstItem="HWN-f5-5gT" firstAttribute="top" secondItem="JtV-VX-coK" secondAttribute="topMargin" constant="18" id="4QP-zB-rB4"/>
-                            <constraint firstItem="VpD-RV-hPI" firstAttribute="top" secondItem="vBm-5g-rZp" secondAttribute="bottom" constant="8" symbolic="YES" id="6Of-MP-9fX"/>
-                            <constraint firstItem="EdD-a9-UFV" firstAttribute="leading" secondItem="JtV-VX-coK" secondAttribute="leading" id="6cY-1p-wVz"/>
-                            <constraint firstItem="EdD-a9-UFV" firstAttribute="top" secondItem="HWN-f5-5gT" secondAttribute="bottom" constant="8" symbolic="YES" id="H3u-c5-Sak"/>
-                            <constraint firstItem="HWN-f5-5gT" firstAttribute="centerX" secondItem="EdD-a9-UFV" secondAttribute="centerX" id="LqB-Kt-toW"/>
-                            <constraint firstItem="HWN-f5-5gT" firstAttribute="leading" secondItem="vBm-5g-rZp" secondAttribute="leading" id="M44-DE-3s7"/>
-                            <constraint firstItem="HWN-f5-5gT" firstAttribute="leading" secondItem="JtV-VX-coK" secondAttribute="leadingMargin" constant="-15" id="XTw-Jq-iuN"/>
-                            <constraint firstItem="EdD-a9-UFV" firstAttribute="trailing" secondItem="VpD-RV-hPI" secondAttribute="trailing" id="cMo-5G-bDF"/>
-                            <constraint firstItem="QzZ-eD-GXB" firstAttribute="top" secondItem="VpD-RV-hPI" secondAttribute="bottom" constant="250" id="gKO-Yc-8pQ"/>
-                            <constraint firstItem="HWN-f5-5gT" firstAttribute="trailing" secondItem="vBm-5g-rZp" secondAttribute="trailing" id="rl5-ad-omg"/>
-                            <constraint firstAttribute="bottom" secondItem="EdD-a9-UFV" secondAttribute="bottom" constant="591" id="tah-Q9-qeD"/>
-                            <constraint firstItem="vBm-5g-rZp" firstAttribute="top" secondItem="JtV-VX-coK" secondAttribute="top" constant="257" id="wCV-E9-78N"/>
+                            <constraint firstItem="HWN-f5-5gT" firstAttribute="trailing" secondItem="vBm-5g-rZp" secondAttribute="trailing" id="0y0-Uc-DcP"/>
+                            <constraint firstItem="EdD-a9-UFV" firstAttribute="leading" secondItem="JtV-VX-coK" secondAttribute="leading" id="6Yz-oM-ieS"/>
+                            <constraint firstItem="HWN-f5-5gT" firstAttribute="leading" secondItem="JtV-VX-coK" secondAttribute="leadingMargin" constant="-15" id="BIc-md-L5w"/>
+                            <constraint firstItem="wJi-xm-CAv" firstAttribute="top" secondItem="VpD-RV-hPI" secondAttribute="bottom" constant="8" symbolic="YES" id="FhU-Jp-fJS"/>
+                            <constraint firstItem="HWN-f5-5gT" firstAttribute="leading" secondItem="vBm-5g-rZp" secondAttribute="leading" id="HDJ-72-JuD"/>
+                            <constraint firstItem="HWN-f5-5gT" firstAttribute="centerX" secondItem="EdD-a9-UFV" secondAttribute="centerX" id="HF0-o6-UHT"/>
+                            <constraint firstItem="wJi-xm-CAv" firstAttribute="trailing" secondItem="vBm-5g-rZp" secondAttribute="trailing" id="J1P-Su-gaT"/>
+                            <constraint firstItem="HWN-f5-5gT" firstAttribute="top" secondItem="JtV-VX-coK" secondAttribute="topMargin" constant="18" id="R7j-nl-5Ma"/>
+                            <constraint firstItem="EdD-a9-UFV" firstAttribute="top" secondItem="HWN-f5-5gT" secondAttribute="bottom" constant="8" symbolic="YES" id="RfU-lQ-I24"/>
+                            <constraint firstItem="EdD-a9-UFV" firstAttribute="trailing" secondItem="VpD-RV-hPI" secondAttribute="trailing" id="Syp-Qs-K84"/>
+                            <constraint firstItem="YTZ-jY-rUU" firstAttribute="top" secondItem="wJi-xm-CAv" secondAttribute="bottom" constant="8" symbolic="YES" id="XTb-dC-9Tk"/>
+                            <constraint firstItem="EdD-a9-UFV" firstAttribute="leading" secondItem="VpD-RV-hPI" secondAttribute="leading" id="aDW-U6-KWY"/>
+                            <constraint firstItem="QzZ-eD-GXB" firstAttribute="top" secondItem="YTZ-jY-rUU" secondAttribute="bottom" constant="244" id="b0j-AG-92F"/>
+                            <constraint firstItem="VpD-RV-hPI" firstAttribute="top" secondItem="vBm-5g-rZp" secondAttribute="bottom" constant="8" symbolic="YES" id="bkX-bu-Zvd"/>
+                            <constraint firstItem="wJi-xm-CAv" firstAttribute="leading" secondItem="vBm-5g-rZp" secondAttribute="leading" id="ciz-YT-CZI"/>
+                            <constraint firstItem="QzZ-eD-GXB" firstAttribute="top" secondItem="VpD-RV-hPI" secondAttribute="bottom" constant="431" id="ddO-jL-bsg"/>
+                            <constraint firstAttribute="trailing" secondItem="EdD-a9-UFV" secondAttribute="trailing" id="fcI-Hu-v8W"/>
+                            <constraint firstItem="vBm-5g-rZp" firstAttribute="top" secondItem="EdD-a9-UFV" secondAttribute="bottom" constant="8" symbolic="YES" id="l9C-HH-74a"/>
+                            <constraint firstItem="wJi-xm-CAv" firstAttribute="centerX" secondItem="YTZ-jY-rUU" secondAttribute="centerX" id="tOo-Da-4d7"/>
+                            <constraint firstItem="YTZ-jY-rUU" firstAttribute="leading" secondItem="JtV-VX-coK" secondAttribute="leading" constant="132" id="txW-i7-GBz"/>
+                            <constraint firstItem="vBm-5g-rZp" firstAttribute="top" secondItem="JtV-VX-coK" secondAttribute="top" constant="153" id="wqC-ge-AAt"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
                         <outlet property="controlView" destination="EdD-a9-UFV" id="lCF-Cy-5uw"/>
+                        <outlet property="materialView" destination="YTZ-jY-rUU" id="yRJ-Cv-k7g"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ioK-Hr-COg" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -176,4 +203,7 @@
             <point key="canvasLocation" x="1097" y="102"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="timeline-bg" width="375" height="200"/>
+    </resources>
 </document>
