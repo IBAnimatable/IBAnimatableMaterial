@@ -16,23 +16,7 @@
                     <view key="view" contentMode="scaleToFill" id="Sm0-cH-w4Q">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5fb-nU-Ozc">
-                                <rect key="frame" x="0.0" y="41" width="414" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="1IK-6w-bVf"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstAttribute="trailing" secondItem="5fb-nU-Ozc" secondAttribute="trailing" id="Zay-HA-fpZ"/>
-                            <constraint firstItem="5fb-nU-Ozc" firstAttribute="leading" secondItem="Sm0-cH-w4Q" secondAttribute="leading" id="bqT-zd-Qvk"/>
-                            <constraint firstItem="5fb-nU-Ozc" firstAttribute="top" secondItem="qbT-h1-AoZ" secondAttribute="bottom" constant="21" id="mGm-3C-UGB"/>
-                        </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                 </viewController>

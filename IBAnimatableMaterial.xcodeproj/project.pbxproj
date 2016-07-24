@@ -20,6 +20,7 @@
 		5EEAC45A1D44EFBA00608400 /* AnimatableMaterialBars.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EEAC4591D44EFBA00608400 /* AnimatableMaterialBars.storyboard */; };
 		5EEAC45C1D44F07600608400 /* AnimatableMaterialTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEAC45B1D44F07600608400 /* AnimatableMaterialTabBar.swift */; };
 		5EEAC45E1D44F1B200608400 /* AnimatableMaterialBarViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEAC45D1D44F1B200608400 /* AnimatableMaterialBarViews.swift */; };
+		5EEAC4601D44FCB400608400 /* AnimatableMaterialToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEAC45F1D44FCB400608400 /* AnimatableMaterialToolbar.swift */; };
 		AE4948571D3FAEC400A2DC24 /* IBAnimatableMaterial.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E953D8A41D3E278700647D4D /* IBAnimatableMaterial.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AE4948581D3FAEE800A2DC24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFC55DA1D32212D00D9EC01 /* AppDelegate.swift */; };
 		AE4948591D3FAEE800A2DC24 /* AnimatableMaterialTextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E922835A1D33C95D0049DE28 /* AnimatableMaterialTextFieldViewController.swift */; };
@@ -104,6 +105,7 @@
 		5EEAC4591D44EFBA00608400 /* AnimatableMaterialBars.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AnimatableMaterialBars.storyboard; sourceTree = "<group>"; };
 		5EEAC45B1D44F07600608400 /* AnimatableMaterialTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialTabBar.swift; sourceTree = "<group>"; };
 		5EEAC45D1D44F1B200608400 /* AnimatableMaterialBarViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialBarViews.swift; sourceTree = "<group>"; };
+		5EEAC45F1D44FCB400608400 /* AnimatableMaterialToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableMaterialToolbar.swift; sourceTree = "<group>"; };
 		69CD4C2929274C9999D253DF /* Pods-IBAnimatableMaterial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBAnimatableMaterial.release.xcconfig"; path = "Pods/Target Support Files/Pods-IBAnimatableMaterial/Pods-IBAnimatableMaterial.release.xcconfig"; sourceTree = "<group>"; };
 		846C1357CC810BF3298F1831 /* Pods-IBAnimatableMaterial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBAnimatableMaterial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IBAnimatableMaterial/Pods-IBAnimatableMaterial.debug.xcconfig"; sourceTree = "<group>"; };
 		902930B75F76D17D0DFFF667 /* Pods_IBAnimatableMaterialApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IBAnimatableMaterialApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -228,6 +230,7 @@
 				5EEAC45B1D44F07600608400 /* AnimatableMaterialTabBar.swift */,
 				AE4948791D3FB4A300A2DC24 /* AnimatableMaterialNavBar.swift */,
 				AE49487A1D3FB4A300A2DC24 /* AnimatableMaterialSearchBar.swift */,
+				5EEAC45F1D44FCB400608400 /* AnimatableMaterialToolbar.swift */,
 			);
 			name = Bars;
 			sourceTree = "<group>";
@@ -588,6 +591,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EEAC4601D44FCB400608400 /* AnimatableMaterialToolbar.swift in Sources */,
 				5EEAC4561D44EAE400608400 /* AnimatableMaterialBarView.swift in Sources */,
 				AE49487B1D3FB4A300A2DC24 /* AnimatableMaterialNavBar.swift in Sources */,
 				AE4948711D3FB46F00A2DC24 /* AnimatableMaterialCollectionViewCell.swift in Sources */,
