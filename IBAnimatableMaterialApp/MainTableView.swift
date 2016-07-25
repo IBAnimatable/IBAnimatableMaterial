@@ -10,9 +10,9 @@ import IBAnimatableMaterial
 
 private enum components: String {
   case AnimatableMaterialButtons, AnimatableMaterialTextField, AnimatableMaterialErrorTextField = "ErrorTextField / TextView / Label / SearchBar", AnimatableMaterialCardView
-  case AnimatableImageCardView, AnimatableControlView = "ControlView / PulseView", AnimatableMaterialCollectionViewCell
+  case AnimatableImageCardView, AnimatableControlView = "ControlView / PulseView / MaterialView", AnimatableMaterialCollectionViewCell, AnimatableMaterialBarViews
 
-  static let AllValues = [AnimatableMaterialButtons, AnimatableMaterialTextField, AnimatableMaterialErrorTextField, AnimatableMaterialCardView, AnimatableImageCardView, AnimatableControlView, AnimatableMaterialCollectionViewCell]
+  static let AllValues = [AnimatableMaterialButtons, AnimatableMaterialTextField, AnimatableMaterialErrorTextField, AnimatableMaterialCardView, AnimatableImageCardView, AnimatableControlView, AnimatableMaterialCollectionViewCell, AnimatableMaterialBarViews]
 }
 
 
@@ -87,6 +87,8 @@ class MainTableView: UITableViewController {
       performSegueWithIdentifier("toAnimatableMaterialControlView", sender: self)
     case .AnimatableMaterialCollectionViewCell:
       performSegueWithIdentifier("toAnimatableMaterialCollectionViewCellViewController", sender: self)
+    case .AnimatableMaterialBarViews:
+      performSegueWithIdentifier("toAnimatableMaterialBarsViews", sender: self)
     }
   }
 

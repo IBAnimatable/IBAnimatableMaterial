@@ -2,12 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/jake.lin/dev/Jake/IBAnimatableMaterial/IBAnimatableMaterial.xcodeproj">
+      location = "group:IBAnimatableMaterial.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:IBAnimatableMaterial.xcodeproj">
    </FileRef>
 </Workspace>

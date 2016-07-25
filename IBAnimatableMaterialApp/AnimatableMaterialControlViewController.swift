@@ -14,14 +14,17 @@ import Material
 class AnimatableMaterialControlViewController: UIViewController {
   
   @IBOutlet weak var controlView: AnimatableMaterialControlView!
+  @IBOutlet weak var materialView: AnimatableMaterialView!
+  
   
   override func viewDidLoad() {
     prepareControlView()
+    prepareMaterialView()
   }
   
   //MARK: Create ControlView
   
-  func prepareControlView() {
+  private func prepareControlView() {
    
     // Undo button.
     let undoButton: FlatButton = FlatButton()
@@ -38,5 +41,13 @@ class AnimatableMaterialControlViewController: UIViewController {
     controlView.contentInsetPreset = .WideRectangle3
     
     controlView.contentView.grid.views = [label]
+  }
+  
+  //MARK: Crate MaterialView
+  
+  private func prepareMaterialView() {
+    materialView.image = UIImage(named: "timeline-bg")
+    materialView.shape = .Circle
+    materialView.depth = .Depth2
   }
 }
